@@ -391,7 +391,32 @@
             <property key="Plataforma/Instancia" value="OpenShift Cluster K8S"/>
             <property key="Versión de implementación" value="1.0.0"/>
           </element>
-          <element xsi:type="archimate:ApplicationService" name="e-branch-managment" id="id-9218f12ec0554816ae639cc70423f958"/>
+          <element xsi:type="archimate:ApplicationService" name="e-branch-managment" id="id-9218f12ec0554816ae639cc70423f958">
+            <property key="Nombre del servicio" value="jarvis-cross-services-e-branch-management"/>
+            <property key="Descripción" value="Este microservicio mantiene los productos y/o servicios habilitados para los clientes a través del canal de banca electrónica, esto incluye la administración del acceso de los clientes y el derecho al servicio cuando sea necesario."/>
+            <property key="Categoría" value="Servicio de Negocio"/>
+            <property key="Tipo de solución lógica" value="Atómico"/>
+            <property key="Disponibilidad" value="24x7"/>
+            <property key="Proceso de negocio"/>
+            <property key="Estado" value="producción"/>
+            <property key="Dueño del servicio"/>
+            <property key="Interfaz" value="API REST"/>
+            <property key="Función 1" value="Esta funcionalidad permite obtener los dispositivos vinculados a un cliente."/>
+            <property key="Función 2" value="Esta funcionalidad permite registrar el nuevo dispositivo del cliente."/>
+            <property key="Función 3" value="Esta funcionalidad permite desvincular el dispositivo del cliente."/>
+            <property key="Función 4" value="Esta funcionalidad permite actualizar la última sesión del dispositivo del cliente."/>
+            <property key="API Contract" value="https://e-branch-management-v1-des.ocpappdes.financiero.bco/swagger-ui.html#/"/>
+            <property key="URL Función 1" value="https://e-branch-management-v1-des.ocpappdes.financiero.bco​/channel-specific​/e-branch-management​/v1.0​/smart-devices"/>
+            <property key="URL Función 2" value="https://e-branch-management-v1-des.ocpappdes.financiero.bco/channel-specific​/e-branch-management​/v1.0​/smart-devices"/>
+            <property key="URL Función 3" value="https://e-branch-management-v1-des.ocpappdes.financiero.bco​/channel-specific​/e-branch-management​/v1.0​/smart-devices​/{deviceId}"/>
+            <property key="URL Función 4" value="https://e-branch-management-v1-des.ocpappdes.financiero.bco​/channel-specific​/e-branch-management​/v1.0​/smart-devices​/{deviceId}"/>
+            <property key="Seguridad"/>
+            <property key="Tecnología" value="Java + Spring"/>
+            <property key="Tipo de Integración" value="Sincrono"/>
+            <property key="Ubicación" value="On-premise"/>
+            <property key="Plataforma/Instancia" value="OpenShift Cluster K8S"/>
+            <property key="Versión de implementación" value="1.0.0"/>
+          </element>
         </folder>
         <folder name="MSA Support" id="9499a6ec-17e1-41cf-9d4b-2e8e737d3e3e">
           <element xsi:type="archimate:ApplicationService" name="wu-provider" id="3c0037dc-f325-4d78-910c-e0ac37769887">
@@ -923,42 +948,6 @@ microservicio : personal-account&#xD;
 &#xD;
 &#xD;
 </documentation>
-          <property key="Microservicio" value="loans"/>
-          <property key="trama1" value="3004 - pago servicio"/>
-          <property key="desc1"/>
-          <property key="trama2" value="3010"/>
-          <property key="desc2"/>
-          <property key="trama3" value="3015"/>
-          <property key="desc3"/>
-          <property key="trama4" value="3026"/>
-          <property key="desc4"/>
-          <property key="Microservicio" value="personal-account"/>
-          <property key="trama1" value="3002"/>
-          <property key="desc1"/>
-          <property key="trama2" value="3009"/>
-          <property key="desc2"/>
-          <property key="trama3" value="3430"/>
-          <property key="desc3"/>
-          <property key="trama4" value="3003"/>
-          <property key="desc4"/>
-          <property key="trama5" value="3008"/>
-          <property key="desc5"/>
-          <property key="trama6" value="3016"/>
-          <property key="desc6"/>
-          <property key="trama7" value="3012"/>
-          <property key="desc7"/>
-          <property key="Microservicio" value="credit-charge-card"/>
-          <property key="Microservicio" value="party-data-managment"/>
-          <property key="Microservicio" value="payment-execution"/>
-          <property key="trama1"/>
-          <property key="desc1"/>
-          <property key="trama2"/>
-          <property key="desc2"/>
-          <property key="trama3"/>
-          <property key="desc3"/>
-          <property key="trama4"/>
-          <property key="desc4"/>
-          <property key="trama1"/>
         </element>
       </folder>
       <folder name="Mail Server" id="c9be147d-6490-4c62-905e-2ff05d37cc6b">
@@ -2468,7 +2457,7 @@ commercial off-the-shelf (COTS), or government off-the-shelf (GOTS) products, or
           <child xsi:type="archimate:Group" id="id-1c779f6a402a4f229409028e29b386c5" name="On-premise Pichincha" font="1|Segoe UI|9.75|1|WINDOWS|1|-13|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1">
             <bounds x="168" y="672" width="1524" height="792"/>
             <child xsi:type="archimate:DiagramObject" id="4e28057b-783e-47b5-aae7-a2af55e75f54" archimateElement="59864998-b2ce-4830-9133-67587909a229">
-              <bounds x="600" y="423" width="204" height="36"/>
+              <bounds x="900" y="444" width="204" height="36"/>
             </child>
             <child xsi:type="archimate:Group" id="id-bfcffcc08c714dc68e69934a1e033bd8" name="Database" textAlignment="1">
               <bounds x="612" y="531" width="265" height="174"/>
@@ -2483,7 +2472,7 @@ commercial off-the-shelf (COTS), or government off-the-shelf (GOTS) products, or
               </child>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-590da8c395774e16b24132976445c3f3" textAlignment="1" fillColor="#d2d7d7" archimateElement="id-7ecc6b08f61f40b2917f7241b104583e">
-              <bounds x="480" y="87" width="445" height="397"/>
+              <bounds x="480" y="87" width="445" height="302"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-11aed92752c54658a9e5c5a827c52e58" source="id-590da8c395774e16b24132976445c3f3" target="9e27ab2c-9d3a-4fb9-859e-30d424386ff1" archimateRelationship="id-8890604815c14ac48d552e2558dea836"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-d85c52422aef43ddbc396f70f9d28caa" source="id-590da8c395774e16b24132976445c3f3" target="cddd021a-5c7e-4a31-89a2-99c433cdec66" archimateRelationship="id-08a402d3679f4a0599d22cce31c04149"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-a55dd83810854dde96eb528363f2b002" source="id-590da8c395774e16b24132976445c3f3" target="4a045c2e-dea3-4ea8-b05d-fc06a8ef056c" archimateRelationship="id-a793a8ebb87f480d984be067cfc1f952"/>
@@ -2537,7 +2526,7 @@ commercial off-the-shelf (COTS), or government off-the-shelf (GOTS) products, or
               <bounds x="24" y="94" width="144" height="558"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-3b65bfc651864ed79b27475eac90ed14" source="id-bb502a951ccc4f6fb3e4915452dcfed9" target="id-b7f8a95da90b4918b9a717660b974988" archimateRelationship="0dfdce4a-d068-4208-8234-f35923b2684e"/>
               <child xsi:type="archimate:DiagramObject" id="id-b7f8a95da90b4918b9a717660b974988" targetConnections="id-d2a2be5f76fa4b7fac1a57b0328c487b id-3b65bfc651864ed79b27475eac90ed14" archimateElement="d107708b-27b1-4458-8e46-ffb6f2a6d5c7">
-                <bounds x="12" y="60" width="108" height="48"/>
+                <bounds x="12" y="60" width="109" height="61"/>
                 <sourceConnection xsi:type="archimate:Connection" id="id-42c8433ef786439ab4399ece86da9fe2" source="id-b7f8a95da90b4918b9a717660b974988" target="1462593f-9274-418b-bb96-a18fbe038d86" archimateRelationship="35daaea0-9b05-4c2e-ab31-72033dbfd232"/>
               </child>
             </child>
