@@ -923,42 +923,6 @@ microservicio : personal-account&#xD;
 &#xD;
 &#xD;
 </documentation>
-          <property key="Microservicio" value="loans"/>
-          <property key="trama1" value="3004 - pago servicio"/>
-          <property key="desc1"/>
-          <property key="trama2" value="3010"/>
-          <property key="desc2"/>
-          <property key="trama3" value="3015"/>
-          <property key="desc3"/>
-          <property key="trama4" value="3026"/>
-          <property key="desc4"/>
-          <property key="Microservicio" value="personal-account"/>
-          <property key="trama1" value="3002"/>
-          <property key="desc1"/>
-          <property key="trama2" value="3009"/>
-          <property key="desc2"/>
-          <property key="trama3" value="3430"/>
-          <property key="desc3"/>
-          <property key="trama4" value="3003"/>
-          <property key="desc4"/>
-          <property key="trama5" value="3008"/>
-          <property key="desc5"/>
-          <property key="trama6" value="3016"/>
-          <property key="desc6"/>
-          <property key="trama7" value="3012"/>
-          <property key="desc7"/>
-          <property key="Microservicio" value="credit-charge-card"/>
-          <property key="Microservicio" value="party-data-managment"/>
-          <property key="Microservicio" value="payment-execution"/>
-          <property key="trama1"/>
-          <property key="desc1"/>
-          <property key="trama2"/>
-          <property key="desc2"/>
-          <property key="trama3"/>
-          <property key="desc3"/>
-          <property key="trama4"/>
-          <property key="desc4"/>
-          <property key="trama1"/>
         </element>
       </folder>
       <folder name="Mail Server" id="c9be147d-6490-4c62-905e-2ff05d37cc6b">

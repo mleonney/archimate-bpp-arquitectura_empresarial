@@ -903,38 +903,24 @@ Invoca: &#xD;
       <folder name="IBS" id="36e107e8-7799-4241-9bad-4fbaf6adc45c">
         <element xsi:type="archimate:SystemSoftware" name="AS400" id="2b7636bc-9f4d-4dfc-a5f0-eedcdcaf9dbb">
           <documentation>microservicio : payment&#xD;
-	trama1 : 3080&#xD;
-	desc1  : preview de pago de servicio&#xD;
-	trama2 : 4080&#xD;
-	desc2  : execucion de pago&#xD;
-	trama3 : 4081&#xD;
-	desc3  : consiliación	&#xD;
-	trama4 : 4901&#xD;
-	desc4  : extorno&#xD;
+	trama1 : 3080 - preview de pago de servicio&#xD;
+	trama2 : 4080 - execucion de pago&#xD;
+	trama3 : 4081 - consiliación	&#xD;
+	trama4 : 4901 - extorno&#xD;
 microservicio : loan&#xD;
 	trama1 : 3004&#xD;
-	desc1  : &#xD;
 	trama2 : 3010&#xD;
-	desc2  : &#xD;
 	trama3 : 3015&#xD;
-	desc3  : &#xD;
 	trama4 : 3026&#xD;
-	desc4  : &#xD;
 microservicio : personal-account&#xD;
 	trama1 : 3002&#xD;
-	desc1  : &#xD;
 	trama2 : 3009&#xD;
-	desc2  : &#xD;
 	trama3 : 3430&#xD;
-	desc3  : &#xD;
 	trama4 : 3003&#xD;
-	desc4  : &#xD;
 	trama5 : 3008&#xD;
-	desc5  : &#xD;
 	trama6 : 3016&#xD;
-	desc6  : &#xD;
 	trama7 : 3012&#xD;
-	desc7  : &#xD;
+&#xD;
 &#xD;
 </documentation>
           <property key="Microservicio" value="loans"/>
