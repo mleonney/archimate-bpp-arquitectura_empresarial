@@ -139,17 +139,17 @@
             <property key="Estado" value="Producción"/>
             <property key="Dueño del Servicio"/>
             <property key="Interfaz" value="API REST"/>
-            <property key="API Contract" value="https://credit-charge-card-v2-cal.ocpappcal.financiero.bco/swagger-ui.html"/>
+            <property key="API Contract" value="https://credit-charge-card-v2-des.ocpappdes.financiero.bco/swagger-ui.html"/>
             <property key="Función 1" value="Permite realizar la búsqueda de los datos de la última facturación de una tarjeta de crédito por su número."/>
             <property key="Función 2" value="Permite obtener una colección de todas las tarjetas de crédito de un cliente del banco por su código único."/>
             <property key="Función 3" value="Permite obtener la información de una tarjeta de crédito por su número."/>
             <property key="Función 4" value="Permite obtener una colección de todos los movimientos de una tarjeta de crédito de un cliente por su número."/>
             <property key="Función 5" value="Permite obtener los estados de cuenta de todas las tarjetas de crédito de un cliente del banco por su código."/>
-            <property key="URL Función 1" value="[GET] https://credit-charge-card-v2-cal.ocpappcal.financiero.bco​/cards​/credit-charge-card​/v2.0​/billing-credit-cards"/>
-            <property key="URL Función 2" value="[GET] https://credit-charge-card-v2-cal.ocpappcal.financiero.bco​/cards​/credit-charge-card​/v2.0​/credit-cards"/>
-            <property key="URL Función 3" value="[GET] https://credit-charge-card-v2-cal.ocpappcal.financiero.bco​/cards​/credit-charge-card​/v2.0​/credit-cards​/{cardNumber}"/>
-            <property key="URL Función 4" value="[GET] https://credit-charge-card-v2-cal.ocpappcal.financiero.bco​/cards​/credit-charge-card​/v2.0​/credit-cards-transactions"/>
-            <property key="URL Función 5" value="[GET] https://credit-charge-card-v2-cal.ocpappcal.financiero.bco​/cards​/credit-charge-card​/v2.0​/statement-credit-cards"/>
+            <property key="URL Función 1" value="[GET] https://credit-charge-card-v2-des.ocpappdes.financiero.bco​/cards​/credit-charge-card​/v2.0​/billing-credit-cards"/>
+            <property key="URL Función 2" value="[GET] https://credit-charge-card-v2-des.ocpappdes.financiero.bco​/cards​/credit-charge-card​/v2.0​/credit-cards"/>
+            <property key="URL Función 3" value="[GET] https://credit-charge-card-v2-des.ocpappdes.financiero.bco​/cards​/credit-charge-card​/v2.0​/credit-cards​/{cardNumber}"/>
+            <property key="URL Función 4" value="[GET] https://credit-charge-card-v2-des.ocpappdes.financiero.bco​/cards​/credit-charge-card​/v2.0​/credit-cards-transactions"/>
+            <property key="URL Función 5" value="[GET] https://credit-charge-card-v2-des.ocpappdes.financiero.bco​/cards​/credit-charge-card​/v2.0​/statement-credit-cards"/>
             <property key="Seguridad"/>
             <property key="Tecnología" value="Java + Spring"/>
             <property key="Tipo de integración" value="Sincrono"/>
@@ -928,26 +928,88 @@ Invoca: &#xD;
       <folder name="IBS" id="36e107e8-7799-4241-9bad-4fbaf6adc45c">
         <element xsi:type="archimate:SystemSoftware" name="AS400" id="2b7636bc-9f4d-4dfc-a5f0-eedcdcaf9dbb">
           <documentation>microservicio : payment&#xD;
-	trama1 : 3080 - preview de pago de servicio&#xD;
-	trama2 : 4080 - execucion de pago&#xD;
-	trama3 : 4081 - consiliación	&#xD;
-	trama4 : 4901 - extorno&#xD;
+	trama : 3080 - preview de pago de servicio.&#xD;
+	trama : 4080 - execucion de pago.&#xD;
+	trama : 4081 - consiliación.&#xD;
+	trama : 4901 - extorno.&#xD;
+&#xD;
 microservicio : loan&#xD;
-	trama1 : 3004&#xD;
-	trama2 : 3010&#xD;
-	trama3 : 3015&#xD;
-	trama4 : 3026&#xD;
+	trama : 3004 - consulta los prestamos del cliente por ibs.&#xD;
+	trama : 3010 - consulta el prestamo por número de préstamo.&#xD;
+	trama : 3015 - obtiene las tarifas por el número de préstamo.&#xD;
+	trama : 3026 - obtiene la tcea por el número de préstamo.&#xD;
+&#xD;
+microservicio : credit-charge-card&#xD;
+	trama : 3005 - consulta las tarjetas de crédito del cliente por ibs.&#xD;
+	trama : 3011 - consulta el detalle de la última facturación de la tarjeta por su número.&#xD;
+	trama : 3017 - consulta una lista de tarjetas adicionales del cliente.&#xD;
+	trama : 3013 - consulta la lista de movimientos de la diarios de la tarjeta.&#xD;
+	trama : 3014 - consulta la lista de movimientos facturados de la tarjeta.&#xD;
+&#xD;
 microservicio : personal-account&#xD;
-	trama1 : 3002&#xD;
-	trama2 : 3009&#xD;
-	trama3 : 3430&#xD;
-	trama4 : 3003&#xD;
-	trama5 : 3008&#xD;
-	trama6 : 3016&#xD;
-	trama7 : 3012&#xD;
+	trama : 3002 - consulta las cuentas de un cliente.&#xD;
+	trama : 3009 - consulta información de una cuenta por el su id.&#xD;
+	trama : 3430 - crea una nueva cuenta.&#xD;
+	trama : 3003 - consulta las cuenta a deposito a plazo de un cliente.&#xD;
+	trama : 3008 - consulta información de una cuenta depósito a plazo por el su id.&#xD;
+	trama : 3016 - consulta iformación de la cuenta miembro conjunto.&#xD;
+	trama : 3012 - consulta los movimientos de una cuenta.&#xD;
 &#xD;
+microservicio : user - security&#xD;
+	trama : 2101 - Genera una semilla para la encriptación de clave.&#xD;
+	trama : 2102 - Registra un nuevo usuario.&#xD;
+	trama : 2103 -&#xD;
+	trama : 2104 -&#xD;
+	trama : 2105 -&#xD;
+	trama : 2106 - Actualización de usuario.&#xD;
+	trama : 2107 - Validación de la clave pin de 4.&#xD;
+	trama : 3024 - Registra datos de logueo (Obtiene credenciales).&#xD;
+	trama : 3023 - Registra datos de logueo (actualiza credenciales).&#xD;
 &#xD;
-</documentation>
+microservicio : transaction-authorization&#xD;
+	trama : 3018 - Consulta de límites por código de canal.&#xD;
+&#xD;
+microservicio : product-service&#xD;
+	trama : 2105 -&#xD;
+	trama : 2101 - Genera una semilla para la encriptación de clave.&#xD;
+	trama : 2107 - Validación de la clave pin de 4.&#xD;
+	trama : 2103 -&#xD;
+	trama : 3025 - Consulta de trajeta de crédito y débito por código de cliente.&#xD;
+&#xD;
+microservicio : payment-execution&#xD;
+	trama : 4001 - El canal APP Banca Móvil realizará la consulta de las transferencias entre cuentas del Banco Pichincha para el mismo cliente. &#xD;
+	trama : 4002 - El canal APP Banca Móvil realizará la ejecución de las transferencias entre cuentas del Banco Pichincha para el mismo cliente. &#xD;
+	trama : 4003 - El canal APP Banca Móvil realizará la consulta de las transferencias entre cuentas del Banco Pichincha hacia terceros.&#xD;
+	trama : 4004 - El canal APP Banca Móvil realizará la ejecución de las transferencias entre cuentas del Banco Pichincha hacia terceros.&#xD;
+	trama : 4005 - El canal APP Banca Móvil realizará la consulta de los pagos de préstamos Pichincha para el mismo cliente.&#xD;
+	trama : 4006 - El canal APP Banca Móvil realizará la ejecución de los pagos de préstamos Pichincha para el mismo cliente.&#xD;
+	trama : 4007 - El canal APP Banca Móvil realizará la consulta de los pagos de préstamos Pichincha hacia terceros.&#xD;
+	trama : 4008 - El canal APP Banca Móvil realizará la ejecución de los pagos de préstamos Pichincha hacia terceros.&#xD;
+	trama : 4015 - El canal APP Banca Móvil realizará la consulta de las transferencias interbancarias diferidas vía CCE a fin de trasladar dinero a cuentas de otros bancos.&#xD;
+	trama : 4016 - El canal APP Banca Móvil realizará la ejecución de las transferencias interbancarias diferidas vía CCE a fin de trasladar dinero a cuentas de otros bancos.&#xD;
+	trama : 4017 - El canal APP Banca Móvil realizará la consulta de las transferencias interbancarias diferidas vía CCE a fin de pagar tarjetas de crédito de otros bancos.&#xD;
+	trama : 4018 - El canal APP Banca Móvil realizará la ejecución de las transferencias interbancarias diferidas vía CCE a fin de pagar tarjetas de crédito de otros bancos.&#xD;
+&#xD;
+microservicio : currency-exchange&#xD;
+	trama : 3021 - Consulta de tipo de cambio por código de tipo de cambio.&#xD;
+&#xD;
+microservicio : ach-fulfillment:&#xD;
+	trama : 4019 - El canal APP Banca Móvil realizará la consulta de las transferencias interbancarias inmediatas vía CCE a fin de trasladar dinero a cuentas de otros bancos.&#xD;
+	trama : 4020 - El canal APP Banca Móvil realizará la ejecución de las transferencias interbancarias inmediatas vía CCE a fin de trasladar dinero a cuentas de otros bancos.&#xD;
+&#xD;
+microservicio : party-authentication&#xD;
+	trama : 2101 - Genera una semilla para la encriptación de clave.&#xD;
+	trama : 2102 - Registra un nuevo usuario.&#xD;
+	trama : 2108 - Validación de usuario y password.&#xD;
+	trama : 2104 - &#xD;
+	trama : 2105 - &#xD;
+	trama : 2106 - Actualización de usuario.&#xD;
+	trama : 2107 - Validación de la clave pin de 4.&#xD;
+&#xD;
+microservicio : party-data-management:&#xD;
+	trama : 3007 - Consulta de datos del cliente por tipo y número de documento.&#xD;
+	trama : 3001 - Consulta de datos del cliente por código de cliente.&#xD;
+	trama : 3019 - Consulta de entidades financieras por código de banco. </documentation>
         </element>
       </folder>
       <folder name="Mail Server" id="c9be147d-6490-4c62-905e-2ff05d37cc6b">
@@ -1021,7 +1083,6 @@ microservicio : personal-account&#xD;
     <element xsi:type="archimate:ServingRelationship" id="05cfb7fa-1d38-47b7-88fe-ec22a464335e" source="c0280f40-9c47-481e-8853-efb6f4691000" target="0d309f9e-dc12-4bc9-8be3-8a815b53d123"/>
     <element xsi:type="archimate:ServingRelationship" id="ddd28ebe-ddcb-4e8a-b0bc-fa9c7dd82e72" source="5175543a-ac94-4262-9e86-16b0162c57ba" target="0d309f9e-dc12-4bc9-8be3-8a815b53d123"/>
     <element xsi:type="archimate:ServingRelationship" id="77654c35-6a0b-4627-9da4-3a61ba804daf" source="c1b20c0a-6ab7-4626-a761-cdc126cca1fa" target="0d309f9e-dc12-4bc9-8be3-8a815b53d123"/>
-    <element xsi:type="archimate:ServingRelationship" id="98446973-e221-406a-887a-70357be38f62" source="923ac964-fb25-45e0-bc69-1d076820425b" target="0d309f9e-dc12-4bc9-8be3-8a815b53d123"/>
     <element xsi:type="archimate:ServingRelationship" id="1aa0ca81-f524-48a6-8fda-78485f5a6274" source="0d309f9e-dc12-4bc9-8be3-8a815b53d123" target="bdb23009-1c4a-4ff1-9390-372e50417465"/>
     <element xsi:type="archimate:ServingRelationship" id="39e93bfe-91bf-413a-bc19-a8b74054f1ec" source="36670964-42c3-4aba-b3bb-5a859ec19753" target="3d66ceca-3a8d-47e1-9f6e-fe56c8d7f681"/>
     <element xsi:type="archimate:ServingRelationship" id="fc8f3b6a-36b6-47a3-b47b-4880646cb503" source="56cf52f1-9fae-49fc-89eb-cd1a6d391ce7" target="c1b20c0a-6ab7-4626-a761-cdc126cca1fa"/>
@@ -1056,7 +1117,6 @@ microservicio : personal-account&#xD;
     <element xsi:type="archimate:ServingRelationship" id="6cb496f8-db96-41e7-b311-d31b8fee5751" source="0d9e2e0e-7565-4123-ae0b-d3058ab02b8c" target="id-9218f12ec0554816ae639cc70423f958"/>
     <element xsi:type="archimate:ServingRelationship" id="0517a841-5943-468f-8372-0c93922cbcab" source="56cf52f1-9fae-49fc-89eb-cd1a6d391ce7" target="b528605e-93f8-4f7f-8058-466f678525f7"/>
     <element xsi:type="archimate:ServingRelationship" id="6eb3716a-1d33-4c9e-b4dc-4d3eb4e60256" source="56cf52f1-9fae-49fc-89eb-cd1a6d391ce7" target="36670964-42c3-4aba-b3bb-5a859ec19753"/>
-    <element xsi:type="archimate:ServingRelationship" id="9b5777e6-9188-4bff-93ee-23001b05a597" source="56cf52f1-9fae-49fc-89eb-cd1a6d391ce7" target="923ac964-fb25-45e0-bc69-1d076820425b"/>
     <element xsi:type="archimate:ServingRelationship" id="8d791742-df81-4d5c-9f29-03b79483856b" source="0d9e2e0e-7565-4123-ae0b-d3058ab02b8c" target="df8da701-e58d-4540-8efe-406fb466f057"/>
     <element xsi:type="archimate:ServingRelationship" id="b809a7ff-b72a-46a4-b57a-27321acc31a2" source="0d9e2e0e-7565-4123-ae0b-d3058ab02b8c" target="6a5c9728-5de2-42d0-9202-e58744401aa8"/>
     <element xsi:type="archimate:ServingRelationship" id="9b3a0379-3fdf-47f5-b1a3-1acb47d29f6f" source="0d9e2e0e-7565-4123-ae0b-d3058ab02b8c" target="729b8917-e022-405f-8752-ad8023ed90a9"/>
@@ -1689,7 +1749,7 @@ commercial off-the-shelf (COTS), or government off-the-shelf (GOTS) products, or
             </child>
             <child xsi:type="archimate:Group" id="926e2658-d019-4d0e-ba43-f442da199ce4" name="IIS" font="1|Segoe UI|10.0|1|WINDOWS|1|-20|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" fillColor="#d2d7d7">
               <bounds x="1416" y="540" width="169" height="721"/>
-              <child xsi:type="archimate:DiagramObject" id="fcdc5641-9f42-48db-be35-4f418dfff196" targetConnections="e860333b-7b9c-48f6-bd2d-03581cfd8789 07fabdc9-7095-411c-87f5-ebbc60469f9a 82d0c03f-21eb-44d9-af0f-28224d9f70f1 8971db7a-0810-4256-adb9-2bfae3351fba 268a1e12-0559-44b0-a882-a983fd4da531 c87e0d4d-2e02-4896-84d0-058894de0448 63a38132-2a8d-4e85-ae70-b7314b3bb9de 145ab391-698e-4d20-9887-7ed78139fa53 de8ba5a3-0508-4054-961d-aeb79f5b9b90" font="1|Segoe UI Semibold|9.0|0|WINDOWS|1|-18|0|0|0|600|0|0|0|0|3|2|1|34|Segoe UI Semibold" fillColor="#ffff00" textPosition="1" archimateElement="0d309f9e-dc12-4bc9-8be3-8a815b53d123">
+              <child xsi:type="archimate:DiagramObject" id="fcdc5641-9f42-48db-be35-4f418dfff196" targetConnections="07fabdc9-7095-411c-87f5-ebbc60469f9a 82d0c03f-21eb-44d9-af0f-28224d9f70f1 8971db7a-0810-4256-adb9-2bfae3351fba 268a1e12-0559-44b0-a882-a983fd4da531 c87e0d4d-2e02-4896-84d0-058894de0448 63a38132-2a8d-4e85-ae70-b7314b3bb9de 145ab391-698e-4d20-9887-7ed78139fa53 de8ba5a3-0508-4054-961d-aeb79f5b9b90" font="1|Segoe UI Semibold|9.0|0|WINDOWS|1|-18|0|0|0|600|0|0|0|0|3|2|1|34|Segoe UI Semibold" fillColor="#ffff00" textPosition="1" archimateElement="0d309f9e-dc12-4bc9-8be3-8a815b53d123">
                 <bounds x="24" y="36" width="121" height="661"/>
                 <sourceConnection xsi:type="archimate:Connection" id="544a8adc-68eb-4bfd-a491-06ece356d640" source="fcdc5641-9f42-48db-be35-4f418dfff196" target="d3b1fb6d-cd82-44ba-aa92-5187bf274bd5" archimateRelationship="1aa0ca81-f524-48a6-8fda-78485f5a6274"/>
               </child>
@@ -1744,7 +1804,6 @@ commercial off-the-shelf (COTS), or government off-the-shelf (GOTS) products, or
                 <sourceConnection xsi:type="archimate:Connection" id="6d413360-80dd-418a-9e40-377aac7c7300" source="5f171256-93c6-4c12-9ba5-6243f27d2255" target="47f6ac6c-5f43-43b9-b4df-05c453306ec2" archimateRelationship="21d587c5-248a-4eca-8a00-d5313576da9f"/>
                 <sourceConnection xsi:type="archimate:Connection" id="2141125b-e150-4e46-90e5-5e28ff4d8591" source="5f171256-93c6-4c12-9ba5-6243f27d2255" target="15c7e4c2-c4ec-48aa-b8f0-76e445a46eb2" archimateRelationship="6eb3716a-1d33-4c9e-b4dc-4d3eb4e60256"/>
                 <sourceConnection xsi:type="archimate:Connection" id="4a3da781-3810-4142-9a1d-319e8934b333" source="5f171256-93c6-4c12-9ba5-6243f27d2255" target="21e887d8-3601-4c12-bcf8-5dd4c7b361e1" archimateRelationship="fc8f3b6a-36b6-47a3-b47b-4880646cb503"/>
-                <sourceConnection xsi:type="archimate:Connection" id="6bca4f4c-b805-42d8-b4c1-71a9ccac11de" source="5f171256-93c6-4c12-9ba5-6243f27d2255" target="04998444-943f-4704-83ec-ba24cf9750e5" archimateRelationship="9b5777e6-9188-4bff-93ee-23001b05a597"/>
                 <sourceConnection xsi:type="archimate:Connection" id="32eec5fc-45b3-4bc5-b5e7-507ba27d2aa8" source="5f171256-93c6-4c12-9ba5-6243f27d2255" target="e156e1ff-7b8a-4c6e-94a5-020168eebf1e" archimateRelationship="0517a841-5943-468f-8372-0c93922cbcab"/>
               </child>
               <child xsi:type="archimate:DiagramObject" id="52f809bd-439d-4ce2-ab1e-54a323c5b982" targetConnections="39e04f94-fabc-41df-af93-9ab4ca453a79 80c0dcb2-e13b-4540-a694-fd4658bcbfaa" font="1|Segoe UI Semibold|9.0|0|WINDOWS|1|-18|0|0|0|600|0|0|0|0|3|2|1|34|Segoe UI Semibold" fillColor="#ffff00" archimateElement="9d888382-0de9-4ef0-b7b2-af91cb9cac5b">
@@ -1867,9 +1926,8 @@ commercial off-the-shelf (COTS), or government off-the-shelf (GOTS) products, or
                 <bounds x="135" y="48" width="206" height="25"/>
                 <content>Envia SMS/EMail - Consula/Registra plantillas</content>
               </child>
-              <child xsi:type="archimate:DiagramObject" id="04998444-943f-4704-83ec-ba24cf9750e5" targetConnections="6bca4f4c-b805-42d8-b4c1-71a9ccac11de 77d3975a-8071-4ad1-ab3e-83f7cdc51a1d 01842c32-f34b-4872-9f6f-9aae6beded33" font="1|Segoe UI Semibold|9.0|0|WINDOWS|1|-18|0|0|0|600|0|0|0|0|3|2|1|34|Segoe UI Semibold" fillColor="#ffff00" textPosition="1" archimateElement="923ac964-fb25-45e0-bc69-1d076820425b">
+              <child xsi:type="archimate:DiagramObject" id="04998444-943f-4704-83ec-ba24cf9750e5" targetConnections="77d3975a-8071-4ad1-ab3e-83f7cdc51a1d 01842c32-f34b-4872-9f6f-9aae6beded33" font="1|Segoe UI Semibold|9.0|0|WINDOWS|1|-18|0|0|0|600|0|0|0|0|3|2|1|34|Segoe UI Semibold" fillColor="#ffff00" textPosition="1" archimateElement="923ac964-fb25-45e0-bc69-1d076820425b">
                 <bounds x="115" y="816" width="288" height="31"/>
-                <sourceConnection xsi:type="archimate:Connection" id="e860333b-7b9c-48f6-bd2d-03581cfd8789" source="04998444-943f-4704-83ec-ba24cf9750e5" target="fcdc5641-9f42-48db-be35-4f418dfff196" archimateRelationship="98446973-e221-406a-887a-70357be38f62"/>
               </child>
               <child xsi:type="archimate:DiagramObject" id="9177eead-591c-48d3-800c-f494a46c301f" targetConnections="c035a70a-22c6-431e-891e-9fb75e2c6dc2 018ef0c8-132e-4031-a199-61dfade9e5b3" font="1|Segoe UI Semibold|9.0|0|WINDOWS|1|-18|0|0|0|600|0|0|0|0|3|2|1|34|Segoe UI Semibold" fillColor="#ffff00" textPosition="1" archimateElement="a0524241-47fb-4369-b39a-26ee81495b29">
                 <bounds x="133" y="360" width="300" height="31"/>
@@ -2118,13 +2176,13 @@ commercial off-the-shelf (COTS), or government off-the-shelf (GOTS) products, or
               </child>
             </child>
             <child xsi:type="archimate:Group" id="id-3d1413058bfc42f793ca9682089becc9" textAlignment="1">
-              <bounds x="852" y="755" width="216" height="140"/>
+              <bounds x="876" y="732" width="216" height="140"/>
               <feature name="labelExpression" value="Database"/>
               <child xsi:type="archimate:DiagramObject" id="bdba0a08-66df-4003-9cb9-2930cc7906af" targetConnections="cffc0036-87a7-4605-b584-e86717d90766" archimateElement="a542d13b-7ab3-4bd4-b3f7-1c0fd5df6f73">
                 <bounds x="24" y="36" width="169" height="31"/>
               </child>
               <child xsi:type="archimate:DiagramObject" id="d4085ddd-1e2f-4f08-9ead-c499aba7d93b" targetConnections="72f4e2b3-abdb-42fb-862f-e4e557c3e5f7" archimateElement="382a0784-2aca-495a-95f7-1e807b4cff41">
-                <bounds x="36" y="72" width="120" height="55"/>
+                <bounds x="12" y="72" width="120" height="55"/>
               </child>
             </child>
             <child xsi:type="archimate:Group" id="id-c006c1d1e2864850b3f26408a4aac40e" name="Database" font="1|Segoe UI|9.75|1|WINDOWS|1|-13|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1">
@@ -2371,12 +2429,11 @@ commercial off-the-shelf (COTS), or government off-the-shelf (GOTS) products, or
               </child>
             </child>
             <child xsi:type="archimate:DiagramObject" id="4c552b1a-eb4a-45f2-bb53-7f3cd98b67f0" textAlignment="1" archimateElement="e09c5a9a-16ad-44d1-b1de-9d5ccb9ec3e8">
-              <bounds x="233" y="48" width="235" height="358"/>
+              <bounds x="233" y="48" width="224" height="358"/>
               <sourceConnection xsi:type="archimate:Connection" id="c03d44b0-1047-4d18-86f6-ecaac41da78c" source="4c552b1a-eb4a-45f2-bb53-7f3cd98b67f0" target="06657d5a-6fcd-4f86-95fa-259c11b6abbd" archimateRelationship="592a1ff2-f731-42a3-8f29-59a9fca7c784"/>
               <child xsi:type="archimate:DiagramObject" id="06657d5a-6fcd-4f86-95fa-259c11b6abbd" targetConnections="c03d44b0-1047-4d18-86f6-ecaac41da78c a5f7095c-4c3f-48f1-8cc8-a93d7fe320c0" archimateElement="56cf52f1-9fae-49fc-89eb-cd1a6d391ce7">
                 <bounds x="24" y="192" width="180" height="36"/>
                 <sourceConnection xsi:type="archimate:Connection" id="3f98510a-6fab-44b9-bfa6-8272332fe4fc" source="06657d5a-6fcd-4f86-95fa-259c11b6abbd" target="40c5bccc-f186-4089-83a1-7c2e4fab67c9" archimateRelationship="0517a841-5943-468f-8372-0c93922cbcab"/>
-                <sourceConnection xsi:type="archimate:Connection" id="538cf67b-8b06-4e2b-991f-cc2c6a65375c" source="06657d5a-6fcd-4f86-95fa-259c11b6abbd" target="e7c72202-81a3-40d1-8cfc-89d6551724af" archimateRelationship="9b5777e6-9188-4bff-93ee-23001b05a597"/>
                 <sourceConnection xsi:type="archimate:Connection" id="e3bb05d6-0ab1-4a8d-a250-2b507790744f" source="06657d5a-6fcd-4f86-95fa-259c11b6abbd" target="1afa11f0-95d5-48c2-8c22-aeb478532296" archimateRelationship="fc8f3b6a-36b6-47a3-b47b-4880646cb503"/>
                 <sourceConnection xsi:type="archimate:Connection" id="4efbd342-5987-4e53-b2d4-58fdb2b6a86a" source="06657d5a-6fcd-4f86-95fa-259c11b6abbd" target="55240f65-312a-47ca-9920-e0bcb55ad6b8" archimateRelationship="7569b8bf-0317-40c8-8883-a79a95610ef3"/>
                 <sourceConnection xsi:type="archimate:Connection" id="e91df412-218f-4793-8434-f8b507e056ba" source="06657d5a-6fcd-4f86-95fa-259c11b6abbd" target="e1b52c81-482f-45f0-a351-df6411c1cf19" archimateRelationship="21d587c5-248a-4eca-8a00-d5313576da9f"/>
@@ -2385,11 +2442,10 @@ commercial off-the-shelf (COTS), or government off-the-shelf (GOTS) products, or
               </child>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-6e532912095b4412844a45e9f9087a70" textAlignment="1" archimateElement="495b2f69-ee46-4633-8368-cae5f63fee1f">
-              <bounds x="516" y="48" width="288" height="240"/>
+              <bounds x="516" y="48" width="264" height="204"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-847530d4177342298c18bc97fb22d102" source="id-6e532912095b4412844a45e9f9087a70" target="e1b52c81-482f-45f0-a351-df6411c1cf19" archimateRelationship="d5a2f650-39d2-429b-83c1-7b8d4c2c140a"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-5de05027afdc4ed681a3dc9737496694" source="id-6e532912095b4412844a45e9f9087a70" target="1afa11f0-95d5-48c2-8c22-aeb478532296" archimateRelationship="d28552b3-a723-4d9f-8726-4a846aece8fa"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-9642822e496640099ebc0cc096016d78" source="id-6e532912095b4412844a45e9f9087a70" target="55240f65-312a-47ca-9920-e0bcb55ad6b8" archimateRelationship="70d6f43b-677b-4e88-9a5f-7ccbf9414556"/>
-              <sourceConnection xsi:type="archimate:Connection" id="id-0571fe66dbc74ae2afcd051fb2f2a395" source="id-6e532912095b4412844a45e9f9087a70" target="e7c72202-81a3-40d1-8cfc-89d6551724af" archimateRelationship="bb5514be-decd-4f4a-8288-f9b3de7b6217"/>
               <child xsi:type="archimate:DiagramObject" id="e1b52c81-482f-45f0-a351-df6411c1cf19" targetConnections="e91df412-218f-4793-8434-f8b507e056ba id-847530d4177342298c18bc97fb22d102" archimateElement="ff3bd4fb-8084-41a4-991c-956bcdb31c8b">
                 <bounds x="25" y="24" width="168" height="24"/>
                 <sourceConnection xsi:type="archimate:Connection" id="id-d8b737c9c81340eea5a44b19d228a0a6" source="e1b52c81-482f-45f0-a351-df6411c1cf19" target="id-5f966c6cc9704c4b82902da0f9bd1435" archimateRelationship="7a87ea02-8ec5-4ef6-9b0a-c96cb9845ac7"/>
@@ -2401,10 +2457,6 @@ commercial off-the-shelf (COTS), or government off-the-shelf (GOTS) products, or
               <child xsi:type="archimate:DiagramObject" id="1afa11f0-95d5-48c2-8c22-aeb478532296" targetConnections="e3bb05d6-0ab1-4a8d-a250-2b507790744f id-5de05027afdc4ed681a3dc9737496694" archimateElement="c1b20c0a-6ab7-4626-a761-cdc126cca1fa">
                 <bounds x="25" y="96" width="186" height="24"/>
                 <sourceConnection xsi:type="archimate:Connection" id="id-4cc3b5f19a2e46a3b76c14d55eb09180" source="1afa11f0-95d5-48c2-8c22-aeb478532296" target="id-5f966c6cc9704c4b82902da0f9bd1435" archimateRelationship="77654c35-6a0b-4627-9da4-3a61ba804daf"/>
-              </child>
-              <child xsi:type="archimate:DiagramObject" id="e7c72202-81a3-40d1-8cfc-89d6551724af" targetConnections="538cf67b-8b06-4e2b-991f-cc2c6a65375c id-0571fe66dbc74ae2afcd051fb2f2a395" archimateElement="923ac964-fb25-45e0-bc69-1d076820425b">
-                <bounds x="26" y="132" width="183" height="24"/>
-                <sourceConnection xsi:type="archimate:Connection" id="id-e28bbb41b7fd4466b9cb5fa0c5bb4849" source="e7c72202-81a3-40d1-8cfc-89d6551724af" target="id-5f966c6cc9704c4b82902da0f9bd1435" archimateRelationship="98446973-e221-406a-887a-70357be38f62"/>
               </child>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-338de7453a4c48c3910be8baae6a3054" textAlignment="1" archimateElement="id-47f0759a5fc343cd8a824ec53975088e">
@@ -2425,7 +2477,7 @@ commercial off-the-shelf (COTS), or government off-the-shelf (GOTS) products, or
                 <bounds x="36" y="60" width="96" height="48"/>
               </child>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="id-5f966c6cc9704c4b82902da0f9bd1435" targetConnections="id-c1b4a9bdb2d0458e8c3a3bb520b00b2c id-e28bbb41b7fd4466b9cb5fa0c5bb4849 id-d8b737c9c81340eea5a44b19d228a0a6 id-4cc3b5f19a2e46a3b76c14d55eb09180 id-b168e0ada23e486cb5a2b9cf8a5b96fc" archimateElement="0d309f9e-dc12-4bc9-8be3-8a815b53d123">
+            <child xsi:type="archimate:DiagramObject" id="id-5f966c6cc9704c4b82902da0f9bd1435" targetConnections="id-c1b4a9bdb2d0458e8c3a3bb520b00b2c id-d8b737c9c81340eea5a44b19d228a0a6 id-4cc3b5f19a2e46a3b76c14d55eb09180 id-b168e0ada23e486cb5a2b9cf8a5b96fc" archimateElement="0d309f9e-dc12-4bc9-8be3-8a815b53d123">
               <bounds x="852" y="72" width="120" height="384"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-94046629a571483ea0e0d600ceb6bbb6" source="id-5f966c6cc9704c4b82902da0f9bd1435" target="id-dda61cc2d1f64cedafeee4324f133eb0" archimateRelationship="1aa0ca81-f524-48a6-8fda-78485f5a6274"/>
             </child>
@@ -2437,7 +2489,7 @@ commercial off-the-shelf (COTS), or government off-the-shelf (GOTS) products, or
               <bounds x="1140" y="72" width="120" height="384"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-fd3b01f99e0f4cf5a34b9ada140a9c74" textAlignment="1" archimateElement="b80eccea-f360-448e-8d83-8b1c5f554688">
-              <bounds x="588" y="300" width="216" height="106"/>
+              <bounds x="528" y="276" width="216" height="106"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-7ab3377293344a698d2fc80a594f3a19" source="id-fd3b01f99e0f4cf5a34b9ada140a9c74" target="00626d71-2574-4941-a120-b06ee13e3966" archimateRelationship="1cdd4617-96c0-455f-9de3-a2546b522dfd"/>
               <child xsi:type="archimate:DiagramObject" id="00626d71-2574-4941-a120-b06ee13e3966" targetConnections="1fee289d-35bd-4e65-87e6-86ab8b43ebf1 id-7ab3377293344a698d2fc80a594f3a19" archimateElement="36670964-42c3-4aba-b3bb-5a859ec19753">
                 <bounds x="12" y="48" width="168" height="24"/>
@@ -2455,12 +2507,12 @@ commercial off-the-shelf (COTS), or government off-the-shelf (GOTS) products, or
         </element>
         <element xsi:type="archimate:ArchimateDiagramModel" name="View of functional architecture of module/page (C)  end to end" id="c6950dbc-38fc-4788-9f39-6577cc6612ef">
           <child xsi:type="archimate:Group" id="id-1c779f6a402a4f229409028e29b386c5" name="On-premise Pichincha" font="1|Segoe UI|9.75|1|WINDOWS|1|-13|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1">
-            <bounds x="168" y="672" width="1524" height="792"/>
+            <bounds x="168" y="672" width="1524" height="684"/>
             <child xsi:type="archimate:DiagramObject" id="4e28057b-783e-47b5-aae7-a2af55e75f54" archimateElement="59864998-b2ce-4830-9133-67587909a229">
               <bounds x="900" y="444" width="204" height="36"/>
             </child>
             <child xsi:type="archimate:Group" id="id-bfcffcc08c714dc68e69934a1e033bd8" name="Database" textAlignment="1">
-              <bounds x="612" y="531" width="265" height="174"/>
+              <bounds x="600" y="468" width="265" height="174"/>
               <child xsi:type="archimate:DiagramObject" id="id-c7c69e1c0fd3489089acc28470c12c00" targetConnections="id-7520caace12a4f3ba88f956d8a466573 id-5184412443de45dea4a4154376ad2066 id-a4c1467e8de74f72bbb42e00ef98393b id-4c4df7ad179a4838be3eb1be83a793b9" archimateElement="a320f155-9ecf-487e-850e-20ef7500bdf6">
                 <bounds x="12" y="36" width="181" height="25"/>
               </child>
@@ -2501,26 +2553,25 @@ commercial off-the-shelf (COTS), or government off-the-shelf (GOTS) products, or
               </child>
               <child xsi:type="archimate:DiagramObject" id="d90b5a1c-7198-4a3f-b606-18fe552ce5e4" targetConnections="480f2909-f058-4033-b773-c3835cbcc067 id-cfb561301ebe468e9f0d6216b06d20ae" archimateElement="923ac964-fb25-45e0-bc69-1d076820425b">
                 <bounds x="90" y="204" width="222" height="24"/>
-                <sourceConnection xsi:type="archimate:Connection" id="id-896dc9f343d04f099142f870c6ce7cc3" source="d90b5a1c-7198-4a3f-b606-18fe552ce5e4" target="id-639b4280e64844849ed6117838a6f6c6" archimateRelationship="98446973-e221-406a-887a-70357be38f62"/>
               </child>
               <child xsi:type="archimate:DiagramObject" id="id-702e474e316c4329a9a7fc087193b7f8" targetConnections="id-0303751c63b744a2aea52abe2d030371 51a4451c-fe32-459e-9441-05ec9ae9181e" archimateElement="id-9218f12ec0554816ae639cc70423f958">
                 <bounds x="156" y="240" width="214" height="25"/>
                 <sourceConnection xsi:type="archimate:Connection" id="id-4c4df7ad179a4838be3eb1be83a793b9" source="id-702e474e316c4329a9a7fc087193b7f8" target="id-c7c69e1c0fd3489089acc28470c12c00" archimateRelationship="id-8363f2ec04b94d2e9356fe3f3299fa7a"/>
               </child>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="id-639b4280e64844849ed6117838a6f6c6" targetConnections="id-896dc9f343d04f099142f870c6ce7cc3 id-a88ed32fba98483eafd68e03ebba9578 id-5ee48692dce34c78bbc89ac35245b8d3" archimateElement="0d309f9e-dc12-4bc9-8be3-8a815b53d123">
-              <bounds x="984" y="66" width="145" height="325"/>
+            <child xsi:type="archimate:DiagramObject" id="id-639b4280e64844849ed6117838a6f6c6" targetConnections="id-a88ed32fba98483eafd68e03ebba9578 id-5ee48692dce34c78bbc89ac35245b8d3" textPosition="1" archimateElement="0d309f9e-dc12-4bc9-8be3-8a815b53d123">
+              <bounds x="972" y="66" width="145" height="325"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-e157b523f0f046c18bc335500925568e" source="id-639b4280e64844849ed6117838a6f6c6" target="id-6366eddc02ca4b2b9ecd6655cb9dab33" archimateRelationship="1aa0ca81-f524-48a6-8fda-78485f5a6274"/>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="id-f1830e609eec4bec94d08fa6e50a3c90" targetConnections="id-616eb3e72fd74445953f10237c0b9deb" archimateElement="2b7636bc-9f4d-4dfc-a5f0-eedcdcaf9dbb">
-              <bounds x="1344" y="68" width="132" height="321"/>
+            <child xsi:type="archimate:DiagramObject" id="id-f1830e609eec4bec94d08fa6e50a3c90" targetConnections="id-616eb3e72fd74445953f10237c0b9deb" textPosition="1" archimateElement="2b7636bc-9f4d-4dfc-a5f0-eedcdcaf9dbb">
+              <bounds x="1332" y="68" width="132" height="321"/>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="id-6366eddc02ca4b2b9ecd6655cb9dab33" targetConnections="id-e157b523f0f046c18bc335500925568e" archimateElement="bdb23009-1c4a-4ff1-9390-372e50417465">
-              <bounds x="1176" y="69" width="120" height="320"/>
+            <child xsi:type="archimate:DiagramObject" id="id-6366eddc02ca4b2b9ecd6655cb9dab33" targetConnections="id-e157b523f0f046c18bc335500925568e" textPosition="1" archimateElement="bdb23009-1c4a-4ff1-9390-372e50417465">
+              <bounds x="1164" y="69" width="120" height="320"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-616eb3e72fd74445953f10237c0b9deb" source="id-6366eddc02ca4b2b9ecd6655cb9dab33" target="id-f1830e609eec4bec94d08fa6e50a3c90" archimateRelationship="4a66ab99-1582-4610-80ac-2033320f973c"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-2cc8fcf7b2014e2db3f56b4ec83c0c65" targetConnections="id-a4870bb3af374b4b9c405038acedf6c7 id-3b02ed918eab447e97140f3039636b03" archimateElement="f5a75237-bb34-4cd4-bbd9-423e01f4319b">
-              <bounds x="167" y="672" width="120" height="55"/>
+              <bounds x="180" y="552" width="120" height="55"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-bb502a951ccc4f6fb3e4915452dcfed9" textAlignment="1" archimateElement="ae312613-765b-489a-a8fb-e903869338a3">
               <bounds x="24" y="94" width="144" height="558"/>
@@ -2531,7 +2582,7 @@ commercial off-the-shelf (COTS), or government off-the-shelf (GOTS) products, or
               </child>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-78b9da001a534f5daa116a8619e1576e" textAlignment="1" archimateElement="b80eccea-f360-448e-8d83-8b1c5f554688">
-              <bounds x="336" y="516" width="180" height="108"/>
+              <bounds x="348" y="456" width="180" height="108"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-b87dec2c364f4225961516b5815143ee" source="id-78b9da001a534f5daa116a8619e1576e" target="f72ad836-5f7f-4098-8ffd-1a501ac2a8fb" archimateRelationship="1cdd4617-96c0-455f-9de3-a2546b522dfd"/>
               <child xsi:type="archimate:DiagramObject" id="f72ad836-5f7f-4098-8ffd-1a501ac2a8fb" targetConnections="024dde38-dc5d-466e-938b-ebe20751345b id-b87dec2c364f4225961516b5815143ee" archimateElement="36670964-42c3-4aba-b3bb-5a859ec19753">
                 <bounds x="24" y="36" width="120" height="55"/>
@@ -2541,9 +2592,9 @@ commercial off-the-shelf (COTS), or government off-the-shelf (GOTS) products, or
             </child>
           </child>
           <child xsi:type="archimate:Group" id="id-59aec94aa15c4f56b0717904aee87e21" name="Azure Cloud" font="1|Segoe UI|9.75|1|WINDOWS|1|-13|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1">
-            <bounds x="-96" y="660" width="253" height="804"/>
+            <bounds x="-96" y="660" width="253" height="696"/>
             <child xsi:type="archimate:Group" id="id-f3dc2f6f6b924d8cb327c2579ce8fed3" name="Mobile App" font="1|Segoe UI|9.75|1|WINDOWS|1|-13|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1">
-              <bounds x="24" y="75" width="216" height="696"/>
+              <bounds x="24" y="75" width="216" height="585"/>
               <child xsi:type="archimate:DiagramObject" id="275420a6-4110-454a-a55d-e94e19c7af3f" archimateElement="42abc4e0-5f90-4b7b-bafd-65dd7fb4efd3" type="1">
                 <bounds x="12" y="48" width="180" height="133"/>
                 <sourceConnection xsi:type="archimate:Connection" id="c56a2234-f0a5-4a2c-9b7a-9e29a75f681b" source="275420a6-4110-454a-a55d-e94e19c7af3f" target="5afc7898-a46f-4638-ba42-fb2390c7ba44" archimateRelationship="20c6c80f-fd2c-49d3-b68a-8e2ce6c56190"/>
