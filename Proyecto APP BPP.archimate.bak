@@ -113,15 +113,15 @@
             <property key="Estado" value="Producción"/>
             <property key="Dueño del Servicio"/>
             <property key="Interfaz" value="API REST"/>
-            <property key="API Contract" value="https://correspondence-v1-cal.ocpappcal.financiero.bco/swagger-ui.html"/>
+            <property key="API Contract" value="https://correspondence-v1-des.ocpappdes.financiero.bco/swagger-ui.html"/>
             <property key="Función 1" value="Permite realizar el envío de correo electrónico a los clientes del banco."/>
             <property key="Función 2" value="Permite obtener todos los modelos de plantillas para el envío de correo electrónico."/>
             <property key="Función 3" value="Creación del modelo del contenido para el envío del correo electrónico. "/>
             <property key="Función 4" value="Permite realizar el envío de mensaje de texto a los clientes del banco."/>
-            <property key="URL Función 1" value="[POST] https://correspondence-v1-cal.ocpappcal.financiero.bco/document-management-archive​/correspondence​/v1.0​/email-correspondences​/send"/>
-            <property key="URL Función 2" value="[GET] https://correspondence-v1-cal.ocpappcal.financiero.bco/document-management-archive​/correspondence​/v1.0​/email-templates"/>
-            <property key="URL Función 3" value="[POST] https://correspondence-v1-cal.ocpappcal.financiero.bco/document-management-archive​/correspondence​/v1.0​/email-templates"/>
-            <property key="URL Función 4" value="[POST] https://correspondence-v1-cal.ocpappcal.financiero.bco/document-management-archive​/correspondence​/v1.0​/text-message-correspondences​/notify"/>
+            <property key="URL Función 1" value="[POST] https://correspondence-v1-des.ocpappdes.financiero.bco/document-management-archive​/correspondence​/v1.0​/email-correspondences​/send"/>
+            <property key="URL Función 2" value="[GET] https://correspondence-v1-des.ocpappdes.financiero.bco/document-management-archive​/correspondence​/v1.0​/email-templates"/>
+            <property key="URL Función 3" value="[POST] https://correspondence-v1-des.ocpappdes.financiero.bco/document-management-archive​/correspondence​/v1.0​/email-templates"/>
+            <property key="URL Función 4" value="[POST] https://correspondence-v1-des.ocpappdes.financiero.bco/document-management-archive​/correspondence​/v1.0​/text-message-correspondences​/notify"/>
             <property key="Seguridad"/>
             <property key="Tecnología" value="Java + Spring"/>
             <property key="Tipo de integración" value="Sincrono"/>
@@ -429,7 +429,7 @@
             <property key="Estado" value="Producción"/>
             <property key="Dueño del Servicio"/>
             <property key="Interfaz" value="API REST"/>
-            <property key="API Contract" value="https://jsc-cross-wu-provider-v1-cal.ocpappcal.financiero.bco/swagger-ui.html"/>
+            <property key="API Contract" value="https://jsc-cross-wu-provider-v1-des.ocpappdes.financiero.bco/swagger-ui.html"/>
             <property key="Función 1" value="Permite anular un lote de transacciones siempre que el biller permita la anulación."/>
             <property key="Función 2" value="Permite el procesamiento de los pagos pendientes en un lote de transacciones."/>
             <property key="Función 3" value="Permite la consulta de un lote de transacciones o del último lote procesado."/>
@@ -437,13 +437,13 @@
             <property key="Función 5" value="Permite procesar pagos directos sin previa consulta de la deuda."/>
             <property key="Función 6" value="Permite obtener la lista de pagos pendientes del producto seleccionado y los datos adicionales requeridos para pagar la deuda."/>
             <property key="Función 7" value="Permite obtener la lista de productos, parámetros y reglas que se pueden pagar con Western Union."/>
-            <property key="URL Función 1" value="[POST] ​https://jsc-cross-wu-provider-v1-cal.ocpappcal.financiero.bco/support-channel​/jrvs​/v1.0​/wu-provider​/batch-cancelling"/>
-            <property key="URL Función 2" value="[POST] ​https://jsc-cross-wu-provider-v1-cal.ocpappcal.financiero.bco/support-channel​/jrvs​/v1.0​/wu-provider​/batch-processing"/>
-            <property key="URL Función 3" value="[POST] ​https://jsc-cross-wu-provider-v1-cal.ocpappcal.financiero.bco/support-channel​/jrvs​/v1.0​/wu-provider​/batch-queries"/>
-            <property key="URL Función 4" value="[POST] ​https://jsc-cross-wu-provider-v1-cal.ocpappcal.financiero.bco/support-channel​/jrvs​/v1.0​/wu-provider​/data-validations"/>
-            <property key="URL Función 5" value="[POST] ​https://jsc-cross-wu-provider-v1-cal.ocpappcal.financiero.bco/support-channel​/jrvs​/v1.0​/wu-provider​/direct-payments"/>
-            <property key="URL Función 6" value="[POST] ​https://jsc-cross-wu-provider-v1-cal.ocpappcal.financiero.bco/support-channel​/jrvs​/v1.0​/wu-provider​/pending-payments"/>
-            <property key="URL Función 7" value="[GET] ​https://jsc-cross-wu-provider-v1-cal.ocpappcal.financiero.bco/support-channel​/jrvs​/v1.0​/wu-provider​/products"/>
+            <property key="URL Función 1" value="[POST] ​https://jsc-cross-wu-provider-v1-des.ocpappdes.financiero.bco/support-channel​/jrvs​/v1.0​/wu-provider​/batch-cancelling"/>
+            <property key="URL Función 2" value="[POST] ​https://jsc-cross-wu-provider-v1-des.ocpappdes.financiero.bco/support-channel​/jrvs​/v1.0​/wu-provider​/batch-processing"/>
+            <property key="URL Función 3" value="[POST] ​https://jsc-cross-wu-provider-v1-des.ocpappdes.financiero.bco/support-channel​/jrvs​/v1.0​/wu-provider​/batch-queries"/>
+            <property key="URL Función 4" value="[POST] ​https://jsc-cross-wu-provider-v1-des.ocpappdes.financiero.bco/support-channel​/jrvs​/v1.0​/wu-provider​/data-validations"/>
+            <property key="URL Función 5" value="[POST] ​https://jsc-cross-wu-provider-v1-des.ocpappdes.financiero.bco/support-channel​/jrvs​/v1.0​/wu-provider​/direct-payments"/>
+            <property key="URL Función 6" value="[POST] ​https://jsc-cross-wu-provider-v1-des.ocpappdes.financiero.bco/support-channel​/jrvs​/v1.0​/wu-provider​/pending-payments"/>
+            <property key="URL Función 7" value="[GET] ​https://jsc-cross-wu-provider-v1-des.ocpappdes.financiero.bco/support-channel​/jrvs​/v1.0​/wu-provider​/products"/>
             <property key="Seguridad"/>
             <property key="Tecnología" value="Java + Spring"/>
             <property key="Tipo de integración" value="Sincrono"/>
@@ -461,7 +461,7 @@
             <property key="Estado" value="Producción"/>
             <property key="Dueño del Servicio"/>
             <property key="Interfaz" value="API REST"/>
-            <property key="API Contract" value="https://jsc-cross-user-security-v1-cal.ocpappcal.financiero.bco/swagger-ui.html"/>
+            <property key="API Contract" value="https://jsc-cross-user-security-v1-des.ocpappdes.financiero.bco/swagger-ui.html"/>
             <property key="Función 1" value="Genera una clave dinámica."/>
             <property key="Función 2" value="Registro de usuario en el servicio DetectId."/>
             <property key="Función 3" value="Valida la clave dinámica que se envió al usuario."/>
@@ -475,19 +475,19 @@
             <property key="Función 11" value="Valida credenciales de acceso de usuarios."/>
             <property key="Función 12" value="Generación de teclado virtual."/>
             <property key="Función 13" value="Validación de secuencia de caracteres correspondientes al teclado virtual generado."/>
-            <property key="URL Función 1" value="[POST] https://jsc-cross-user-security-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/user-security​/dynamic-keys​/generate"/>
-            <property key="URL Función 2" value="[POST] https://jsc-cross-user-security-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/user-security​/dynamic-keys​/subscribe"/>
-            <property key="URL Función 3" value="[POST] https://jsc-cross-user-security-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/user-security​/dynamic-keys​/validate"/>
-            <property key="URL Función 4" value="[POST] https://jsc-cross-user-security-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/user-security​/user-sessions​/logout"/>
-            <property key="URL Función 5" value="[POST] https://jsc-cross-user-security-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/user-security​/user-sessions​/refresh"/>
-            <property key="URL Función 6" value="[GET] https://jsc-cross-user-security-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/user-security​/users"/>
-            <property key="URL Función 7" value="[POST] https://jsc-cross-user-security-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/user-security​/users"/>
-            <property key="URL Función 8" value="[PUT] https://jsc-cross-user-security-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/user-security​/users-enrollment​/verify"/>
-            <property key="URL Función 9" value="[PATCH] https://jsc-cross-user-security-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/user-security​/users​/{personId}"/>
-            <property key="URL Función 10" value="[PUT] https://jsc-cross-user-security-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/user-security​/users​/{userCode}"/>
-            <property key="URL Función 11" value="[POST] https://jsc-cross-user-security-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/user-security​/users​/authenticate"/>
-            <property key="URL Función 12" value="[POST] https://jsc-cross-user-security-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/user-security​/virtual-keyboards​/generate"/>
-            <property key="URL Función 13" value="[POST] https://jsc-cross-user-security-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/user-security​/virtual-keyboards​/validate"/>
+            <property key="URL Función 1" value="[POST] https://jsc-cross-user-security-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/user-security​/dynamic-keys​/generate"/>
+            <property key="URL Función 2" value="[POST] https://jsc-cross-user-security-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/user-security​/dynamic-keys​/subscribe"/>
+            <property key="URL Función 3" value="[POST] https://jsc-cross-user-security-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/user-security​/dynamic-keys​/validate"/>
+            <property key="URL Función 4" value="[POST] https://jsc-cross-user-security-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/user-security​/user-sessions​/logout"/>
+            <property key="URL Función 5" value="[POST] https://jsc-cross-user-security-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/user-security​/user-sessions​/refresh"/>
+            <property key="URL Función 6" value="[GET] https://jsc-cross-user-security-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/user-security​/users"/>
+            <property key="URL Función 7" value="[POST] https://jsc-cross-user-security-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/user-security​/users"/>
+            <property key="URL Función 8" value="[PUT] https://jsc-cross-user-security-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/user-security​/users-enrollment​/verify"/>
+            <property key="URL Función 9" value="[PATCH] https://jsc-cross-user-security-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/user-security​/users​/{personId}"/>
+            <property key="URL Función 10" value="[PUT] https://jsc-cross-user-security-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/user-security​/users​/{userCode}"/>
+            <property key="URL Función 11" value="[POST] https://jsc-cross-user-security-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/user-security​/users​/authenticate"/>
+            <property key="URL Función 12" value="[POST] https://jsc-cross-user-security-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/user-security​/virtual-keyboards​/generate"/>
+            <property key="URL Función 13" value="[POST] https://jsc-cross-user-security-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/user-security​/virtual-keyboards​/validate"/>
             <property key="Seguridad"/>
             <property key="Tecnología" value="Java + Spring"/>
             <property key="Tipo de integración" value="Sincrono"/>
@@ -505,7 +505,7 @@
             <property key="Estado" value="Producción"/>
             <property key="Dueño del Servicio"/>
             <property key="Interfaz" value="API REST"/>
-            <property key="API Contract" value="https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco/swagger-ui.html"/>
+            <property key="API Contract" value="https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco/swagger-ui.html"/>
             <property key="Función 1" value="Permite obtener una lista de categorías."/>
             <property key="Función 2" value="Permite crear una categoría."/>
             <property key="Función 3" value="Permite obtener una categoría."/>
@@ -561,23 +561,23 @@
             <property key="Función 53" value="Permite crear una transacción."/>
             <property key="Función 54" value="Permite obtener una transacción."/>
             <property key="Función 55" value="Permite actualizar el estado de una transacción."/>
-            <property key="URL Función 1" value="[GET] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/categories"/>
-            <property key="URL Función 2" value="[POST] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/categories"/>
-            <property key="URL Función 3" value="[GET] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/categories​/{categoryId}"/>
-            <property key="URL Función 4" value="[PUT] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/categories​/{categoryId}"/>
-            <property key="URL Función 5" value="[DELETE] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/categories​/{categoryId}"/>
-            <property key="URL Función 6" value="[GET] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/categories​/{categoryId}​/categories-types"/>
-            <property key="URL Función 7" value="[GET] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/categories-types"/>
-            <property key="URL Función 8" value="[POST] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/categories-types"/>
-            <property key="URL Función 6" value="[GET] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/categories-types​/{categoryTypeId}"/>
-            <property key="URL Función 10" value="[PUT] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/categories-types​/{categoryTypeId}"/>
-            <property key="URL Función 11" value="[DELETE] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/categories-types​/{categoryTypeId}"/>
-            <property key="URL Función 12" value="[GET] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/categories-types​/{categoryTypeId}​/service-products"/>
-            <property key="URL Función 13" value="[GET] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/category-classifications"/>
-            <property key="URL Función 14" value="[GET] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/category-type-classifications"/>
-            <property key="URL Función 15" value="[GET] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/channels"/>
-            <property key="URL Función 16" value="[GET] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/channels​/{channelId}"/>
-            <property key="URL Función 17" value="[GET] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/commissions"/>
+            <property key="URL Función 1" value="[GET] https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/categories"/>
+            <property key="URL Función 2" value="[POST] https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/categories"/>
+            <property key="URL Función 3" value="[GET] https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/categories​/{categoryId}"/>
+            <property key="URL Función 4" value="[PUT] https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/categories​/{categoryId}"/>
+            <property key="URL Función 5" value="[DELETE] https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/categories​/{categoryId}"/>
+            <property key="URL Función 6" value="[GET] https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/categories​/{categoryId}​/categories-types"/>
+            <property key="URL Función 7" value="[GET] https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/categories-types"/>
+            <property key="URL Función 8" value="[POST] https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/categories-types"/>
+            <property key="URL Función 6" value="[GET] https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/categories-types​/{categoryTypeId}"/>
+            <property key="URL Función 10" value="[PUT] https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/categories-types​/{categoryTypeId}"/>
+            <property key="URL Función 11" value="[DELETE] https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/categories-types​/{categoryTypeId}"/>
+            <property key="URL Función 12" value="[GET] https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/categories-types​/{categoryTypeId}​/service-products"/>
+            <property key="URL Función 13" value="[GET] https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/category-classifications"/>
+            <property key="URL Función 14" value="[GET] https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/category-type-classifications"/>
+            <property key="URL Función 15" value="[GET] https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/channels"/>
+            <property key="URL Función 16" value="[GET] https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/channels​/{channelId}"/>
+            <property key="URL Función 17" value="[GET] https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/commissions"/>
             <property key="URL Función 18" value="[POST] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/commissions"/>
             <property key="URL Función 19" value="[GET] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/commissions​/{commissionId}"/>
             <property key="URL Función 20" value="[PUT] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/commissions​/{commissionId}"/>
@@ -927,27 +927,76 @@ Invoca: &#xD;
       </folder>
       <folder name="IBS" id="36e107e8-7799-4241-9bad-4fbaf6adc45c">
         <element xsi:type="archimate:SystemSoftware" name="AS400" id="2b7636bc-9f4d-4dfc-a5f0-eedcdcaf9dbb">
-          <documentation>microservicio : payment&#xD;
-	trama1 : 3080 - preview de pago de servicio&#xD;
-	trama2 : 4080 - execucion de pago&#xD;
-	trama3 : 4081 - consiliación	&#xD;
-	trama4 : 4901 - extorno&#xD;
-microservicio : loan&#xD;
-	trama1 : 3004&#xD;
-	trama2 : 3010&#xD;
-	trama3 : 3015&#xD;
-	trama4 : 3026&#xD;
-microservicio : personal-account&#xD;
-	trama1 : 3002&#xD;
-	trama2 : 3009&#xD;
-	trama3 : 3430&#xD;
-	trama4 : 3003&#xD;
-	trama5 : 3008&#xD;
-	trama6 : 3016&#xD;
-	trama7 : 3012&#xD;
+          <documentation>	microservicio : loan&#xD;
+		trama : 3004 - consulta los prestamos del cliente por ibs.&#xD;
+		trama : 3010 - consulta el prestamo por número de préstamo.&#xD;
+		trama : 3015 - obtiene las tarifas por el número de préstamo.&#xD;
+		trama : 3026 - obtiene la tcea por el número de préstamo.&#xD;
 &#xD;
+	microservicio : credit-charge-card&#xD;
+		trama : 3005 - consulta las tarjetas de crédito del cliente por ibs.&#xD;
+		trama : 3011 - consulta el detalle de la última facturación de la tarjeta por su número.&#xD;
+		trama : 3017 - consulta una lista de tarjetas adicionales del cliente.&#xD;
+		trama : 3013 - consulta la lista de movimientos de la diarios de la tarjeta.&#xD;
+		trama : 3014 - consulta la lista de movimientos facturados de la tarjeta.&#xD;
 &#xD;
-</documentation>
+	microservicio : personal-account&#xD;
+		trama : 3002 - consulta las cuentas de un cliente.&#xD;
+		trama : 3009 - consulta información de una cuenta por el su id.&#xD;
+		trama : 3430 - crea una nueva cuenta.&#xD;
+		trama : 3003 - consulta las cuenta a deposito a plazo de un cliente.&#xD;
+		trama : 3008 - consulta información de una cuenta depósito a plazo por el su id.&#xD;
+		trama : 3016 - consulta iformación de la cuenta miembro conjunto.&#xD;
+		trama : 3012 - consulta los movimientos de una cuenta.&#xD;
+&#xD;
+	microservicio : user-security&#xD;
+		trama : 2101 - Genera una semilla para la encriptación de clave.&#xD;
+		trama : 2102 - Registra un nuevo usuario.&#xD;
+		trama : 2103 - Valida el password del usuario.&#xD;
+		trama : 2104 - Migra al usuario.&#xD;
+		trama : 2105 - Recupera la información del Usuario.&#xD;
+		trama : 2106 - Actualización de usuario.&#xD;
+		trama : 2107 - Validación de la clave pin de 4.&#xD;
+		trama : 3022 - Guarda al usuario en host.&#xD;
+		trama : 3023 - Registra datos de logueo (actualiza credenciales).&#xD;
+		trama : 3024 - Registra datos de logueo (Obtiene credenciales).&#xD;
+		&#xD;
+&#xD;
+	microservicio : transaction-authorization&#xD;
+		trama : 3018 - Consulta de límites por código de canal.&#xD;
+&#xD;
+	microservicio : product-service&#xD;
+		trama : 2105 - Recupera la información del Usuario.&#xD;
+		trama : 2101 - Genera una semilla para la encriptación de clave.&#xD;
+		trama : 2107 - Validación de la clave pin de 4.&#xD;
+		trama : 2103 - Valida el password del usuario.&#xD;
+		trama : 3025 - Consulta de trajeta de crédito y débito por código de cliente.&#xD;
+&#xD;
+	microservicio : payment-execution&#xD;
+		trama : 4001 - El canal APP Banca Móvil realizará la consulta de las transferencias entre cuentas del Banco Pichincha para el mismo cliente. &#xD;
+		trama : 4002 - El canal APP Banca Móvil realizará la ejecución de las transferencias entre cuentas del Banco Pichincha para el mismo cliente. &#xD;
+		trama : 4003 - El canal APP Banca Móvil realizará la consulta de las transferencias entre cuentas del Banco Pichincha hacia terceros.&#xD;
+		trama : 4004 - El canal APP Banca Móvil realizará la ejecución de las transferencias entre cuentas del Banco Pichincha hacia terceros.&#xD;
+		trama : 4005 - El canal APP Banca Móvil realizará la consulta de los pagos de préstamos Pichincha para el mismo cliente.&#xD;
+		trama : 4006 - El canal APP Banca Móvil realizará la ejecución de los pagos de préstamos Pichincha para el mismo cliente.&#xD;
+		trama : 4007 - El canal APP Banca Móvil realizará la consulta de los pagos de préstamos Pichincha hacia terceros.&#xD;
+		trama : 4008 - El canal APP Banca Móvil realizará la ejecución de los pagos de préstamos Pichincha hacia terceros.&#xD;
+		trama : 4015 - El canal APP Banca Móvil realizará la consulta de las transferencias interbancarias diferidas vía CCE a fin de trasladar dinero a cuentas de otros bancos.&#xD;
+		trama : 4016 - El canal APP Banca Móvil realizará la ejecución de las transferencias interbancarias diferidas vía CCE a fin de trasladar dinero a cuentas de otros bancos.&#xD;
+		trama : 4017 - El canal APP Banca Móvil realizará la consulta de las transferencias interbancarias diferidas vía CCE a fin de pagar tarjetas de crédito de otros bancos.&#xD;
+		trama : 4018 - El canal APP Banca Móvil realizará la ejecución de las transferencias interbancarias diferidas vía CCE a fin de pagar tarjetas de crédito de otros bancos.&#xD;
+&#xD;
+	microservicio : currency-exchange&#xD;
+		trama : 3021 - Consulta de tipo de cambio por código de tipo de cambio.&#xD;
+&#xD;
+	microservicio : ach-fulfillment:&#xD;
+		trama : 4019 - El canal APP Banca Móvil realizará la consulta de las transferencias interbancarias inmediatas vía CCE a fin de trasladar dinero a cuentas de otros bancos.&#xD;
+		trama : 4020 - El canal APP Banca Móvil realizará la ejecución de las transferencias interbancarias inmediatas vía CCE a fin de trasladar dinero a cuentas de otros bancos.&#xD;
+&#xD;
+	microservicio : party-data-management:&#xD;
+		trama : 3007 - Consulta de datos del cliente por tipo y número de documento.&#xD;
+		trama : 3001 - Consulta de datos del cliente por código de cliente.&#xD;
+		trama : 3019 - Consulta de entidades financieras por código de banco. </documentation>
         </element>
       </folder>
       <folder name="Mail Server" id="c9be147d-6490-4c62-905e-2ff05d37cc6b">
@@ -1197,6 +1246,14 @@ microservicio : personal-account&#xD;
     <element xsi:type="archimate:TriggeringRelationship" id="id-6efe23b1f1c648cd8faacf8a9e45fe24" source="id-9218f12ec0554816ae639cc70423f958" target="a320f155-9ecf-487e-850e-20ef7500bdf6"/>
     <element xsi:type="archimate:ServingRelationship" id="id-8363f2ec04b94d2e9356fe3f3299fa7a" source="id-9218f12ec0554816ae639cc70423f958" target="a320f155-9ecf-487e-850e-20ef7500bdf6"/>
     <element xsi:type="archimate:ServingRelationship" id="id-ad088123da5946d692b50b7421401953" source="56cf52f1-9fae-49fc-89eb-cd1a6d391ce7" target="f5a75237-bb34-4cd4-bbd9-423e01f4319b"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-7441cd26cf5947cea77f3dc7ceec34ca" source="495b2f69-ee46-4633-8368-cae5f63fee1f" target="id-b32e2f5b02044de9a8ae5e620f0e6f59"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="id-ee397132e10c466f80cecd42f3c1d5e6" source="56cf52f1-9fae-49fc-89eb-cd1a6d391ce7" target="id-b32e2f5b02044de9a8ae5e620f0e6f59"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="id-09fc322d6896457ab57d8e29ae5a06eb" source="id-b32e2f5b02044de9a8ae5e620f0e6f59" target="0d309f9e-dc12-4bc9-8be3-8a815b53d123"/>
+    <element xsi:type="archimate:AccessRelationship" id="id-4e2a0a17f2c248089aba707ee933f238" source="b528605e-93f8-4f7f-8058-466f678525f7" target="id-ed3191711cd442b993865ef4f737b6a7" accessType="3"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="id-7f7cc37a96a6421089ccbae5acc77737" source="923ac964-fb25-45e0-bc69-1d076820425b" target="0d309f9e-dc12-4bc9-8be3-8a815b53d123"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="id-8e446612e92540908681e2ee2e7df83e" source="0d9e2e0e-7565-4123-ae0b-d3058ab02b8c" target="59864998-b2ce-4830-9133-67587909a229"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="id-4cab3e8be71742489ea09cd1ede48471" source="923ac964-fb25-45e0-bc69-1d076820425b" target="id-7ecc6b08f61f40b2917f7241b104583e"/>
+    <element xsi:type="archimate:ServingRelationship" id="id-7686eeee48c54f1d8cb2d04bea7da1ca" source="df8da701-e58d-4540-8efe-406fb466f057" target="923ac964-fb25-45e0-bc69-1d076820425b"/>
   </folder>
   <folder name="Views" id="7803d176-e4ae-41c2-a24c-4fb7088377fb" type="diagrams">
     <folder name="Solution Architecture" id="d9fd6f5c-31db-4182-8f0a-a66c3e07aaf8">
@@ -2048,7 +2105,7 @@ commercial off-the-shelf (COTS), or government off-the-shelf (GOTS) products, or
               </child>
             </child>
             <child xsi:type="archimate:DiagramObject" id="b13e3291-a11d-4634-a160-f38f7814cc82" font="1|Segoe UI|10.0|1|WINDOWS|1|-20|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" fillColor="#d2d7d7" archimateElement="e09c5a9a-16ad-44d1-b1de-9d5ccb9ec3e8">
-              <bounds x="234" y="48" width="366" height="499"/>
+              <bounds x="234" y="48" width="247" height="499"/>
               <sourceConnection xsi:type="archimate:Connection" id="6a8718a7-5688-4bf9-adf5-03b3ff0fa879" source="b13e3291-a11d-4634-a160-f38f7814cc82" target="cfbfe82d-5276-4e9f-85d9-6990b6ccb890" archimateRelationship="e0cc1338-9080-468b-8457-6005fad37c89"/>
               <child xsi:type="archimate:DiagramObject" id="cfbfe82d-5276-4e9f-85d9-6990b6ccb890" targetConnections="6a8718a7-5688-4bf9-adf5-03b3ff0fa879 e0021748-1238-43b9-a43d-22cf72255431" textPosition="1" archimateElement="9d888382-0de9-4ef0-b7b2-af91cb9cac5b">
                 <bounds x="24" y="36" width="145" height="445"/>
@@ -2062,11 +2119,11 @@ commercial off-the-shelf (COTS), or government off-the-shelf (GOTS) products, or
               </child>
             </child>
             <child xsi:type="archimate:DiagramObject" id="e000dd7c-2fc5-4b8b-8f95-a0e9f820572e" font="1|Segoe UI|10.0|1|WINDOWS|1|-20|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" fillColor="#d2d7d7" archimateElement="495b2f69-ee46-4633-8368-cae5f63fee1f">
-              <bounds x="612" y="48" width="349" height="145"/>
+              <bounds x="504" y="60" width="349" height="169"/>
               <sourceConnection xsi:type="archimate:Connection" id="281bf040-b374-4606-8775-7df6b53d97d2" source="e000dd7c-2fc5-4b8b-8f95-a0e9f820572e" target="3eca3a28-d032-4f41-a942-08e743bb26ca" archimateRelationship="cc9e378d-3b7a-496b-a614-e31d178114b3"/>
               <sourceConnection xsi:type="archimate:Connection" id="5573e61d-a595-4e91-a4b5-e38056574480" source="e000dd7c-2fc5-4b8b-8f95-a0e9f820572e" target="207b0364-62e8-42af-8804-739cae33f059" archimateRelationship="9cd1f4ce-4a67-49ce-81bd-a2b1e97c6265"/>
               <child xsi:type="archimate:DiagramObject" id="207b0364-62e8-42af-8804-739cae33f059" targetConnections="561e45b4-3b27-418e-93c7-0dc8d936bf5f 5573e61d-a595-4e91-a4b5-e38056574480" archimateElement="5175543a-ac94-4262-9e86-16b0162c57ba">
-                <bounds x="72" y="108" width="181" height="25"/>
+                <bounds x="72" y="84" width="181" height="25"/>
                 <sourceConnection xsi:type="archimate:Connection" id="53017bb6-b70f-4489-8743-74ccff7da420" source="207b0364-62e8-42af-8804-739cae33f059" target="bb0caf62-9bdc-49c2-9868-52fd7fa4c7f2" archimateRelationship="ddd28ebe-ddcb-4e8a-b0bc-fa9c7dd82e72"/>
                 <sourceConnection xsi:type="archimate:Connection" id="id-707f414f47864c45835c9602f973e05d" source="207b0364-62e8-42af-8804-739cae33f059" target="id-19ee4af0d03b46ed9b0cd4e05d05f167" archimateRelationship="id-67ba822fea2c4782a7f4a415ca299a11"/>
               </child>
@@ -2078,15 +2135,15 @@ commercial off-the-shelf (COTS), or government off-the-shelf (GOTS) products, or
               </child>
             </child>
             <child xsi:type="archimate:DiagramObject" id="c5a624e0-c950-47bf-aa95-a03bdfb2c042" targetConnections="7a47eab1-e51f-484a-bc9d-b4b5aa896add" archimateElement="44059dea-bef8-4e7c-9b87-44be13d2cce7">
-              <bounds x="1078" y="60" width="133" height="37"/>
+              <bounds x="780" y="24" width="133" height="37"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="895907c2-99df-4aed-89dc-777bac8cc5b6" font="1|Segoe UI|10.0|1|WINDOWS|1|-20|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" fillColor="#d2d7d7" archimateElement="b80eccea-f360-448e-8d83-8b1c5f554688">
-              <bounds x="612" y="216" width="349" height="276"/>
+              <bounds x="492" y="312" width="301" height="192"/>
               <sourceConnection xsi:type="archimate:Connection" id="f71a17a0-a15c-4670-8bce-e0619bb91a1a" source="895907c2-99df-4aed-89dc-777bac8cc5b6" target="beb7cd6a-6781-4a15-a024-c29fee20ebbc" archimateRelationship="7f8c4134-4074-45f3-98b2-17a9505e78e6"/>
               <sourceConnection xsi:type="archimate:Connection" id="a968ed47-828a-4051-a552-9cf05a713248" source="895907c2-99df-4aed-89dc-777bac8cc5b6" target="a6be73e7-b5b0-4997-b7b2-03ec99e7747a" archimateRelationship="1350ea56-ae14-4404-a030-cc627bf6ef25"/>
               <sourceConnection xsi:type="archimate:Connection" id="ee42e8fe-5a34-4464-9c86-6ba1e879e13f" source="895907c2-99df-4aed-89dc-777bac8cc5b6" target="c9df1f27-b3b5-4ca9-9554-9b3bdba164e1" archimateRelationship="1cdd4617-96c0-455f-9de3-a2546b522dfd"/>
               <child xsi:type="archimate:DiagramObject" id="c9df1f27-b3b5-4ca9-9554-9b3bdba164e1" targetConnections="6f335218-8ed4-42ef-a7f3-d22afd8c13e5 ee42e8fe-5a34-4464-9c86-6ba1e879e13f" archimateElement="36670964-42c3-4aba-b3bb-5a859ec19753">
-                <bounds x="84" y="108" width="181" height="37"/>
+                <bounds x="60" y="84" width="181" height="37"/>
                 <sourceConnection xsi:type="archimate:Connection" id="67f9528f-2894-4c87-a14f-83adf6b5a9fb" source="c9df1f27-b3b5-4ca9-9554-9b3bdba164e1" target="bb0caf62-9bdc-49c2-9868-52fd7fa4c7f2" archimateRelationship="6e8f8118-f8e3-4c4a-9a6b-b245c45a5934"/>
                 <sourceConnection xsi:type="archimate:Connection" id="c4541453-fd86-4c40-9268-17f5d7c8a622" source="c9df1f27-b3b5-4ca9-9554-9b3bdba164e1" target="5ddc5466-bb66-4b52-80e9-3b2e599b9e7e" archimateRelationship="38b8c23e-41dc-41fa-9ff3-5fcd87bc415a"/>
                 <sourceConnection xsi:type="archimate:Connection" id="3db49c64-941c-44ec-98a9-97b0626424f1" source="c9df1f27-b3b5-4ca9-9554-9b3bdba164e1" target="dddd1a14-017d-46e7-b838-6d18b3c71d6d" archimateRelationship="1cc1d19f-d83c-4617-84ef-c38cc8615bf4"/>
@@ -2094,11 +2151,11 @@ commercial off-the-shelf (COTS), or government off-the-shelf (GOTS) products, or
                 <sourceConnection xsi:type="archimate:Connection" id="id-d8d6e5c7fead4b89824d56cccccd7e20" source="c9df1f27-b3b5-4ca9-9554-9b3bdba164e1" target="id-b75bcf7814814e3180ce6a143c690f49" archimateRelationship="bce471ff-6aca-4a67-a144-7459e15e376c"/>
               </child>
               <child xsi:type="archimate:DiagramObject" id="a6be73e7-b5b0-4997-b7b2-03ec99e7747a" targetConnections="1dcf70cb-a7bc-45be-bd6f-3e54d6b79835 a968ed47-828a-4051-a552-9cf05a713248" archimateElement="59864998-b2ce-4830-9133-67587909a229">
-                <bounds x="72" y="192" width="181" height="25"/>
+                <bounds x="60" y="144" width="181" height="25"/>
                 <sourceConnection xsi:type="archimate:Connection" id="id-6f071ca50e59486da6cbedbc8a656883" source="a6be73e7-b5b0-4997-b7b2-03ec99e7747a" target="id-bf664cecf0dd4835a3fe9a6f97b66355" archimateRelationship="id-cfcc84c64c6d432d986c9b6e0c000d37"/>
               </child>
               <child xsi:type="archimate:DiagramObject" id="beb7cd6a-6781-4a15-a024-c29fee20ebbc" targetConnections="c15ef61b-1ee1-4b93-ae57-95698493ab59 f71a17a0-a15c-4670-8bce-e0619bb91a1a" archimateElement="3c0037dc-f325-4d78-910c-e0ac37769887">
-                <bounds x="60" y="60" width="181" height="25"/>
+                <bounds x="60" y="36" width="181" height="25"/>
                 <sourceConnection xsi:type="archimate:Connection" id="99cc7447-b259-41f1-ad6c-154f387d8d85" source="beb7cd6a-6781-4a15-a024-c29fee20ebbc" target="id-9b96ef4b54554621aea9501a88e667f0" archimateRelationship="bbff0ec6-09de-4557-8ac5-b963baf0c909">
                   <bendpoint startX="211" startY="12" endX="12" endY="348"/>
                 </sourceConnection>
@@ -2114,7 +2171,7 @@ commercial off-the-shelf (COTS), or government off-the-shelf (GOTS) products, or
               </child>
             </child>
             <child xsi:type="archimate:Group" id="id-3d1413058bfc42f793ca9682089becc9" textAlignment="1">
-              <bounds x="876" y="732" width="216" height="140"/>
+              <bounds x="780" y="720" width="216" height="140"/>
               <feature name="labelExpression" value="Database"/>
               <child xsi:type="archimate:DiagramObject" id="bdba0a08-66df-4003-9cb9-2930cc7906af" targetConnections="cffc0036-87a7-4605-b584-e86717d90766" archimateElement="a542d13b-7ab3-4bd4-b3f7-1c0fd5df6f73">
                 <bounds x="24" y="36" width="169" height="31"/>
@@ -2124,7 +2181,7 @@ commercial off-the-shelf (COTS), or government off-the-shelf (GOTS) products, or
               </child>
             </child>
             <child xsi:type="archimate:Group" id="id-c006c1d1e2864850b3f26408a4aac40e" name="Database" font="1|Segoe UI|9.75|1|WINDOWS|1|-13|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1">
-              <bounds x="960" y="558" width="228" height="140"/>
+              <bounds x="864" y="516" width="240" height="156"/>
               <child xsi:type="archimate:DiagramObject" id="id-bf664cecf0dd4835a3fe9a6f97b66355" targetConnections="id-6f071ca50e59486da6cbedbc8a656883" archimateElement="id-206304e45b9f4862942c80dffef30627">
                 <bounds x="24" y="30" width="169" height="31"/>
               </child>
@@ -2133,9 +2190,9 @@ commercial off-the-shelf (COTS), or government off-the-shelf (GOTS) products, or
               <bounds x="1247" y="455" width="120" height="37"/>
             </child>
             <child xsi:type="archimate:Group" id="id-965af7c69c5f4e168cbc0ec55e266f20" name="Database" font="1|Segoe UI|9.75|1|WINDOWS|1|-13|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1">
-              <bounds x="1020" y="108" width="228" height="140"/>
+              <bounds x="1044" y="180" width="204" height="124"/>
               <child xsi:type="archimate:DiagramObject" id="id-4885512907af4bb1b3445c3a9ef64d04" targetConnections="id-125fe21ba9454819b894f5e7082b9687" archimateElement="c8c218aa-672e-432c-9ffa-74eb57809f9d">
-                <bounds x="36" y="24" width="168" height="36"/>
+                <bounds x="13" y="24" width="168" height="36"/>
               </child>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-c7d7a46e7a124883b702967366482874" targetConnections="id-0d77fe244d8342ac8a839b17d8774659 id-b35598d86ad048c5b1e92c7870d671c8" archimateElement="8a7ac636-9959-4a80-b72f-ca8860fabe42">
@@ -2197,7 +2254,7 @@ commercial off-the-shelf (COTS), or government off-the-shelf (GOTS) products, or
           <child xsi:type="archimate:Group" id="id-4957fc340a664f05a68a07a8d3226812" name="On-premise Pichincha" font="1|Segoe UI|10.0|1|WINDOWS|1|-20|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" fillColor="#d2d7d7">
             <bounds x="216" y="191" width="1561" height="794"/>
             <child xsi:type="archimate:DiagramObject" id="cc266e3b-1207-4120-bcc7-ca381b3fb6f9" font="1|Segoe UI|9.0|1|WINDOWS|1|-12|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" fillColor="#d2d7d7" archimateElement="ae312613-765b-489a-a8fb-e903869338a3">
-              <bounds x="24" y="60" width="235" height="295"/>
+              <bounds x="24" y="60" width="204" height="588"/>
               <sourceConnection xsi:type="archimate:Connection" id="4e7472f3-0b8a-414a-859d-db8bf77ebbeb" source="cc266e3b-1207-4120-bcc7-ca381b3fb6f9" target="7d932874-f59e-4ba5-87fc-c253ebc07fd4" archimateRelationship="1f6f5e84-572c-4e9c-93d6-16069bbef4e8"/>
               <child xsi:type="archimate:DiagramObject" id="7d932874-f59e-4ba5-87fc-c253ebc07fd4" targetConnections="b1ce5257-7413-4972-bf0a-165bbdec2593 4e7472f3-0b8a-414a-859d-db8bf77ebbeb" archimateElement="154e89b7-fabc-4067-9e80-e8a9654f159f">
                 <bounds x="36" y="144" width="145" height="55"/>
@@ -2205,13 +2262,13 @@ commercial off-the-shelf (COTS), or government off-the-shelf (GOTS) products, or
               </child>
             </child>
             <child xsi:type="archimate:Group" id="id-b160d16ef4d14cc2bd2b23d548c49263" name="Database" font="1|Segoe UI|10.0|1|WINDOWS|1|-20|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" fillColor="#d2d7d7">
-              <bounds x="839" y="552" width="289" height="157"/>
+              <bounds x="876" y="513" width="289" height="157"/>
               <child xsi:type="archimate:DiagramObject" id="id-f130d7e3739c40d0bd8aaefcd31642cd" targetConnections="id-83a4308f73544c088d13afa345b8293f" archimateElement="a320f155-9ecf-487e-850e-20ef7500bdf6">
                 <bounds x="36" y="36" width="180" height="36"/>
               </child>
             </child>
             <child xsi:type="archimate:DiagramObject" id="b2f563c6-ce24-45a5-88a7-ce4633373edf" font="1|Segoe UI|9.0|1|WINDOWS|1|-12|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" fillColor="#d2d7d7" archimateElement="e09c5a9a-16ad-44d1-b1de-9d5ccb9ec3e8">
-              <bounds x="312" y="54" width="229" height="379"/>
+              <bounds x="276" y="54" width="229" height="379"/>
               <sourceConnection xsi:type="archimate:Connection" id="f4384967-d2fd-4492-833b-7b6dc7cf69b5" source="b2f563c6-ce24-45a5-88a7-ce4633373edf" target="cb2f4953-fda0-489c-a54d-01f0758db48f" archimateRelationship="b70a3b55-8bf0-4d4f-a12b-88fa16861003"/>
               <child xsi:type="archimate:DiagramObject" id="cb2f4953-fda0-489c-a54d-01f0758db48f" targetConnections="f4384967-d2fd-4492-833b-7b6dc7cf69b5 74730724-57b4-43b7-9d17-a60f58b9e632" textPosition="1" archimateElement="5f369ca4-f159-4a57-a834-54881d211a88">
                 <bounds x="24" y="48" width="145" height="300"/>
@@ -2225,36 +2282,36 @@ commercial off-the-shelf (COTS), or government off-the-shelf (GOTS) products, or
               </child>
             </child>
             <child xsi:type="archimate:DiagramObject" id="ddce86c1-faa2-40a4-a231-adf76c79b411" font="1|Segoe UI|9.0|1|WINDOWS|1|-12|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" fillColor="#d2d7d7" archimateElement="b80eccea-f360-448e-8d83-8b1c5f554688">
-              <bounds x="600" y="444" width="204" height="140"/>
+              <bounds x="600" y="372" width="204" height="140"/>
               <sourceConnection xsi:type="archimate:Connection" id="9b9e2a58-8c7c-441a-b76c-43607289afd1" source="ddce86c1-faa2-40a4-a231-adf76c79b411" target="6dd5dd03-e0ea-468c-9b4b-529d078a5dff" archimateRelationship="1cdd4617-96c0-455f-9de3-a2546b522dfd"/>
               <child xsi:type="archimate:DiagramObject" id="6dd5dd03-e0ea-468c-9b4b-529d078a5dff" targetConnections="5f77a78a-d833-4d21-aa77-43540fb2463c 9b9e2a58-8c7c-441a-b76c-43607289afd1" archimateElement="36670964-42c3-4aba-b3bb-5a859ec19753">
-                <bounds x="24" y="48" width="145" height="55"/>
+                <bounds x="24" y="48" width="145" height="36"/>
                 <sourceConnection xsi:type="archimate:Connection" id="id-83a4308f73544c088d13afa345b8293f" source="6dd5dd03-e0ea-468c-9b4b-529d078a5dff" target="id-f130d7e3739c40d0bd8aaefcd31642cd" archimateRelationship="38b8c23e-41dc-41fa-9ff3-5fcd87bc415a"/>
                 <sourceConnection xsi:type="archimate:Connection" id="id-fc81d7aa484742fba4dba0549dfba06a" source="6dd5dd03-e0ea-468c-9b4b-529d078a5dff" target="id-3c1bfdf1d6b8442bac5926c0b2ac2440" archimateRelationship="bce471ff-6aca-4a67-a144-7459e15e376c"/>
               </child>
             </child>
             <child xsi:type="archimate:DiagramObject" id="f28183d4-3e29-47a6-a5dd-724dc9d6ecf4" font="1|Segoe UI|9.0|1|WINDOWS|1|-12|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" fillColor="#d2d7d7" archimateElement="495b2f69-ee46-4633-8368-cae5f63fee1f">
-              <bounds x="612" y="54" width="252" height="337"/>
+              <bounds x="612" y="54" width="252" height="295"/>
               <sourceConnection xsi:type="archimate:Connection" id="8986e711-19f4-47e1-bcde-5bc5a0f54bbd" source="f28183d4-3e29-47a6-a5dd-724dc9d6ecf4" target="500beab1-cec1-48ad-9ab0-cfcf0fb100e6" archimateRelationship="cc9e378d-3b7a-496b-a614-e31d178114b3"/>
               <sourceConnection xsi:type="archimate:Connection" id="c0a38be5-ddb1-4954-bd67-4563bced6424" source="f28183d4-3e29-47a6-a5dd-724dc9d6ecf4" target="75185779-3448-405f-a18e-5ac405a1a094" archimateRelationship="d28552b3-a723-4d9f-8726-4a846aece8fa"/>
               <sourceConnection xsi:type="archimate:Connection" id="15141926-78ab-43b9-8ef7-b83d1ac0bd96" source="f28183d4-3e29-47a6-a5dd-724dc9d6ecf4" target="c3db6ff5-f4f5-4613-add2-38566909d823" archimateRelationship="a131fc1a-a0d7-4434-b2aa-76f417f75928"/>
               <sourceConnection xsi:type="archimate:Connection" id="976edc2e-18b7-4d9e-84f9-29e2bf0f192f" source="f28183d4-3e29-47a6-a5dd-724dc9d6ecf4" target="00b8c826-4ad1-4eb3-b49b-2ec97be4043a" archimateRelationship="9cd1f4ce-4a67-49ce-81bd-a2b1e97c6265"/>
               <child xsi:type="archimate:DiagramObject" id="75185779-3448-405f-a18e-5ac405a1a094" targetConnections="680ce2e4-b18b-45b2-a8c4-0a981c6947e0 c0a38be5-ddb1-4954-bd67-4563bced6424" archimateElement="c1b20c0a-6ab7-4626-a761-cdc126cca1fa">
-                <bounds x="48" y="108" width="145" height="55"/>
+                <bounds x="30" y="108" width="187" height="24"/>
                 <sourceConnection xsi:type="archimate:Connection" id="id-c5fc363362bf432c8977e94a4b32efff" source="75185779-3448-405f-a18e-5ac405a1a094" target="id-55859ba56b224365b320e249d56976d5" archimateRelationship="77654c35-6a0b-4627-9da4-3a61ba804daf"/>
               </child>
               <child xsi:type="archimate:DiagramObject" id="500beab1-cec1-48ad-9ab0-cfcf0fb100e6" targetConnections="e57ac7bf-9cdc-49bf-9c62-480d1563e456 8986e711-19f4-47e1-bcde-5bc5a0f54bbd" archimateElement="6a5c9728-5de2-42d0-9202-e58744401aa8">
-                <bounds x="48" y="36" width="145" height="55"/>
+                <bounds x="24" y="48" width="169" height="36"/>
                 <sourceConnection xsi:type="archimate:Connection" id="id-bf8dccfe244d4d6cbd0f66ed0ec9e870" source="500beab1-cec1-48ad-9ab0-cfcf0fb100e6" target="id-bceb3dbab1654ef7b2cfd45dae11dc4d" archimateRelationship="c54e23bf-cb3a-415c-8866-e69c51229f6e"/>
                 <sourceConnection xsi:type="archimate:Connection" id="id-bd03dcb726b343ac85e0e1005ec0758d" source="500beab1-cec1-48ad-9ab0-cfcf0fb100e6" target="id-1d3ee2e520db43808d188b8eed42ada7" archimateRelationship="ed286651-4c0c-46ae-864b-0088c2c16048"/>
                 <sourceConnection xsi:type="archimate:Connection" id="id-2b3d81ac1d854a668252c28e0a24f7bc" source="500beab1-cec1-48ad-9ab0-cfcf0fb100e6" target="id-aec8736cb87c47ebab679ecf20487f96" archimateRelationship="02831215-c574-4119-b5ab-a1e722d7e66e"/>
               </child>
               <child xsi:type="archimate:DiagramObject" id="c3db6ff5-f4f5-4613-add2-38566909d823" targetConnections="8ce9f681-2977-45a4-b4a9-22aedf78b9d9 15141926-78ab-43b9-8ef7-b83d1ac0bd96" archimateElement="134f58d4-49b5-4a03-9225-e2b6ac927153">
-                <bounds x="48" y="192" width="145" height="55"/>
+                <bounds x="24" y="156" width="169" height="24"/>
                 <sourceConnection xsi:type="archimate:Connection" id="id-3e01c9af27644edbb7d0856e184bc72c" source="c3db6ff5-f4f5-4613-add2-38566909d823" target="id-55859ba56b224365b320e249d56976d5" archimateRelationship="ac71b714-e20a-4850-9787-b92965d5bc54"/>
               </child>
               <child xsi:type="archimate:DiagramObject" id="00b8c826-4ad1-4eb3-b49b-2ec97be4043a" targetConnections="4dfbbe2c-df7b-4ca6-a117-0e50d53c8291 976edc2e-18b7-4d9e-84f9-29e2bf0f192f" archimateElement="5175543a-ac94-4262-9e86-16b0162c57ba">
-                <bounds x="48" y="264" width="145" height="55"/>
+                <bounds x="24" y="204" width="193" height="36"/>
                 <sourceConnection xsi:type="archimate:Connection" id="id-cd91abbc66e243b0ac577f70a757ac90" source="00b8c826-4ad1-4eb3-b49b-2ec97be4043a" target="id-55859ba56b224365b320e249d56976d5" archimateRelationship="ddd28ebe-ddcb-4e8a-b0bc-fa9c7dd82e72"/>
               </child>
             </child>
@@ -2268,13 +2325,13 @@ commercial off-the-shelf (COTS), or government off-the-shelf (GOTS) products, or
               </child>
             </child>
             <child xsi:type="archimate:Group" id="id-ac0425f6a70b4ff0b9c0d43d5018def3" name="Database" font="1|Segoe UI|9.0|1|WINDOWS|1|-12|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1">
-              <bounds x="312" y="624" width="216" height="140"/>
+              <bounds x="300" y="588" width="216" height="140"/>
               <child xsi:type="archimate:DiagramObject" id="id-4fe9acf2fd7b4c11abcfccb440071f09" targetConnections="id-f222f7f2cea043d0ae6c9a307f51256a" archimateElement="a542d13b-7ab3-4bd4-b3f7-1c0fd5df6f73">
                 <bounds x="24" y="36" width="156" height="36"/>
               </child>
             </child>
             <child xsi:type="archimate:Group" id="id-24a185cb46b2440982c6d42c2174be1d" name="Database" textAlignment="1">
-              <bounds x="876" y="390" width="216" height="140"/>
+              <bounds x="888" y="330" width="204" height="103"/>
               <child xsi:type="archimate:DiagramObject" id="id-aec8736cb87c47ebab679ecf20487f96" targetConnections="id-2b3d81ac1d854a668252c28e0a24f7bc" archimateElement="c8c218aa-672e-432c-9ffa-74eb57809f9d">
                 <bounds x="24" y="36" width="168" height="36"/>
               </child>
@@ -2294,7 +2351,7 @@ commercial off-the-shelf (COTS), or government off-the-shelf (GOTS) products, or
               <sourceConnection xsi:type="archimate:Connection" id="id-83cf52cd15f54cb6a09c794a2a2b570b" source="id-980ead4936a84b9fac97d17a861e64de" target="id-2d68f3214e9642e2a5ee5981c76f2228" archimateRelationship="4a66ab99-1582-4610-80ac-2033320f973c"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-3c1bfdf1d6b8442bac5926c0b2ac2440" targetConnections="id-fc81d7aa484742fba4dba0549dfba06a id-03dffffaed1f463ca2b8d6194b784662 id-8bd32fefc6cf40d494238870f33cb0b9" archimateElement="f5a75237-bb34-4cd4-bbd9-423e01f4319b">
-              <bounds x="576" y="648" width="120" height="55"/>
+              <bounds x="588" y="564" width="120" height="55"/>
             </child>
           </child>
           <child xsi:type="archimate:Group" id="id-3b35616840384ccb9a3c1b70903387cb" name="Azure Cloud" font="1|Segoe UI|10.0|1|WINDOWS|1|-20|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" fillColor="#d2d7d7">
@@ -2341,9 +2398,9 @@ commercial off-the-shelf (COTS), or government off-the-shelf (GOTS) products, or
           <child xsi:type="archimate:Group" id="id-e496bcf17f8d40b8a4de85145f047672" name="Azure Cloud" font="1|Segoe UI|10.0|1|WINDOWS|1|-20|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" fillColor="#d2d7d7">
             <bounds x="-240" y="504" width="253" height="684"/>
             <child xsi:type="archimate:Group" id="id-07dc7f92e9444dd5962a9adfb4848d1b" name="Mobile App" font="1|Segoe UI|10.0|1|WINDOWS|1|-20|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" fillColor="#d2d7d7">
-              <bounds x="12" y="48" width="217" height="475"/>
+              <bounds x="12" y="48" width="217" height="600"/>
               <child xsi:type="archimate:DiagramObject" id="65480455-ba79-4f9c-9bd0-f5b847c4fc08" archimateElement="42abc4e0-5f90-4b7b-bafd-65dd7fb4efd3" type="1">
-                <bounds x="12" y="168" width="193" height="105"/>
+                <bounds x="12" y="144" width="193" height="105"/>
                 <sourceConnection xsi:type="archimate:Connection" id="0f6d4b4c-410e-49c7-8c7f-6964ce17017d" source="65480455-ba79-4f9c-9bd0-f5b847c4fc08" target="a72be3a6-d314-4b13-85eb-5365ec93e374" archimateRelationship="20c6c80f-fd2c-49d3-b68a-8e2ce6c56190"/>
                 <child xsi:type="archimate:DiagramObject" id="a72be3a6-d314-4b13-85eb-5365ec93e374" targetConnections="0f6d4b4c-410e-49c7-8c7f-6964ce17017d" archimateElement="51ed6cc7-54b3-47f8-a2d9-e1930e73f905" type="1">
                   <bounds x="24" y="24" width="156" height="71"/>
@@ -2362,7 +2419,7 @@ commercial off-the-shelf (COTS), or government off-the-shelf (GOTS) products, or
               <bounds x="36" y="48" width="168" height="516"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-35af6ca8bd594b9c9f6d2b3099ce2899" source="id-1a08c9268ff043689b795c5a29d0ae81" target="e4305a1f-f88a-491c-ba80-c3fc0c71ad21" archimateRelationship="b4974f93-3830-4a18-a178-860cc034027f"/>
               <child xsi:type="archimate:DiagramObject" id="e4305a1f-f88a-491c-ba80-c3fc0c71ad21" targetConnections="3569aa08-7146-4187-8162-eb676275716e id-35af6ca8bd594b9c9f6d2b3099ce2899" archimateElement="b7c05882-f9f4-46d1-a2dc-1529d1bfb896">
-                <bounds x="24" y="180" width="120" height="55"/>
+                <bounds x="24" y="168" width="120" height="55"/>
                 <sourceConnection xsi:type="archimate:Connection" id="a5f7095c-4c3f-48f1-8cc8-a93d7fe320c0" source="e4305a1f-f88a-491c-ba80-c3fc0c71ad21" target="06657d5a-6fcd-4f86-95fa-259c11b6abbd" archimateRelationship="24e8b696-9c3c-4d0d-997e-1a400a21a344"/>
               </child>
             </child>
@@ -2370,35 +2427,41 @@ commercial off-the-shelf (COTS), or government off-the-shelf (GOTS) products, or
               <bounds x="233" y="48" width="224" height="358"/>
               <sourceConnection xsi:type="archimate:Connection" id="c03d44b0-1047-4d18-86f6-ecaac41da78c" source="4c552b1a-eb4a-45f2-bb53-7f3cd98b67f0" target="06657d5a-6fcd-4f86-95fa-259c11b6abbd" archimateRelationship="592a1ff2-f731-42a3-8f29-59a9fca7c784"/>
               <child xsi:type="archimate:DiagramObject" id="06657d5a-6fcd-4f86-95fa-259c11b6abbd" targetConnections="c03d44b0-1047-4d18-86f6-ecaac41da78c a5f7095c-4c3f-48f1-8cc8-a93d7fe320c0" archimateElement="56cf52f1-9fae-49fc-89eb-cd1a6d391ce7">
-                <bounds x="24" y="192" width="180" height="36"/>
+                <bounds x="24" y="168" width="180" height="36"/>
                 <sourceConnection xsi:type="archimate:Connection" id="3f98510a-6fab-44b9-bfa6-8272332fe4fc" source="06657d5a-6fcd-4f86-95fa-259c11b6abbd" target="40c5bccc-f186-4089-83a1-7c2e4fab67c9" archimateRelationship="0517a841-5943-468f-8372-0c93922cbcab"/>
                 <sourceConnection xsi:type="archimate:Connection" id="e3bb05d6-0ab1-4a8d-a250-2b507790744f" source="06657d5a-6fcd-4f86-95fa-259c11b6abbd" target="1afa11f0-95d5-48c2-8c22-aeb478532296" archimateRelationship="fc8f3b6a-36b6-47a3-b47b-4880646cb503"/>
                 <sourceConnection xsi:type="archimate:Connection" id="4efbd342-5987-4e53-b2d4-58fdb2b6a86a" source="06657d5a-6fcd-4f86-95fa-259c11b6abbd" target="55240f65-312a-47ca-9920-e0bcb55ad6b8" archimateRelationship="7569b8bf-0317-40c8-8883-a79a95610ef3"/>
                 <sourceConnection xsi:type="archimate:Connection" id="e91df412-218f-4793-8434-f8b507e056ba" source="06657d5a-6fcd-4f86-95fa-259c11b6abbd" target="e1b52c81-482f-45f0-a351-df6411c1cf19" archimateRelationship="21d587c5-248a-4eca-8a00-d5313576da9f"/>
                 <sourceConnection xsi:type="archimate:Connection" id="1fee289d-35bd-4e65-87e6-86ab8b43ebf1" source="06657d5a-6fcd-4f86-95fa-259c11b6abbd" target="00626d71-2574-4941-a120-b06ee13e3966" archimateRelationship="6eb3716a-1d33-4c9e-b4dc-4d3eb4e60256"/>
                 <sourceConnection xsi:type="archimate:Connection" id="id-7dd6fcd258af4ecaa1c197347ee484df" source="06657d5a-6fcd-4f86-95fa-259c11b6abbd" target="id-e8db054f870741bf8c24410ab87baf68" archimateRelationship="id-ad088123da5946d692b50b7421401953"/>
+                <sourceConnection xsi:type="archimate:Connection" id="id-6a43c2487e5c493ca1ad272ed6c126eb" source="06657d5a-6fcd-4f86-95fa-259c11b6abbd" target="id-f2fc4baaf7a7431d9483fe91074db112" archimateRelationship="id-ee397132e10c466f80cecd42f3c1d5e6"/>
               </child>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-6e532912095b4412844a45e9f9087a70" textAlignment="1" archimateElement="495b2f69-ee46-4633-8368-cae5f63fee1f">
-              <bounds x="516" y="48" width="264" height="204"/>
+              <bounds x="504" y="48" width="264" height="204"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-847530d4177342298c18bc97fb22d102" source="id-6e532912095b4412844a45e9f9087a70" target="e1b52c81-482f-45f0-a351-df6411c1cf19" archimateRelationship="d5a2f650-39d2-429b-83c1-7b8d4c2c140a"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-5de05027afdc4ed681a3dc9737496694" source="id-6e532912095b4412844a45e9f9087a70" target="1afa11f0-95d5-48c2-8c22-aeb478532296" archimateRelationship="d28552b3-a723-4d9f-8726-4a846aece8fa"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-9642822e496640099ebc0cc096016d78" source="id-6e532912095b4412844a45e9f9087a70" target="55240f65-312a-47ca-9920-e0bcb55ad6b8" archimateRelationship="70d6f43b-677b-4e88-9a5f-7ccbf9414556"/>
+              <sourceConnection xsi:type="archimate:Connection" id="id-759e8c52c39d449ca8a3bbb910f9fca8" source="id-6e532912095b4412844a45e9f9087a70" target="id-f2fc4baaf7a7431d9483fe91074db112" archimateRelationship="id-7441cd26cf5947cea77f3dc7ceec34ca"/>
               <child xsi:type="archimate:DiagramObject" id="e1b52c81-482f-45f0-a351-df6411c1cf19" targetConnections="e91df412-218f-4793-8434-f8b507e056ba id-847530d4177342298c18bc97fb22d102" archimateElement="ff3bd4fb-8084-41a4-991c-956bcdb31c8b">
-                <bounds x="25" y="24" width="168" height="24"/>
+                <bounds x="24" y="36" width="168" height="24"/>
                 <sourceConnection xsi:type="archimate:Connection" id="id-d8b737c9c81340eea5a44b19d228a0a6" source="e1b52c81-482f-45f0-a351-df6411c1cf19" target="id-5f966c6cc9704c4b82902da0f9bd1435" archimateRelationship="7a87ea02-8ec5-4ef6-9b0a-c96cb9845ac7"/>
               </child>
               <child xsi:type="archimate:DiagramObject" id="55240f65-312a-47ca-9920-e0bcb55ad6b8" targetConnections="4efbd342-5987-4e53-b2d4-58fdb2b6a86a id-9642822e496640099ebc0cc096016d78" archimateElement="c0280f40-9c47-481e-8853-efb6f4691000">
-                <bounds x="30" y="60" width="180" height="24"/>
+                <bounds x="24" y="72" width="180" height="24"/>
                 <sourceConnection xsi:type="archimate:Connection" id="id-c1b4a9bdb2d0458e8c3a3bb520b00b2c" source="55240f65-312a-47ca-9920-e0bcb55ad6b8" target="id-5f966c6cc9704c4b82902da0f9bd1435" archimateRelationship="05cfb7fa-1d38-47b7-88fe-ec22a464335e"/>
               </child>
               <child xsi:type="archimate:DiagramObject" id="1afa11f0-95d5-48c2-8c22-aeb478532296" targetConnections="e3bb05d6-0ab1-4a8d-a250-2b507790744f id-5de05027afdc4ed681a3dc9737496694" archimateElement="c1b20c0a-6ab7-4626-a761-cdc126cca1fa">
-                <bounds x="25" y="96" width="186" height="24"/>
+                <bounds x="21" y="108" width="186" height="24"/>
                 <sourceConnection xsi:type="archimate:Connection" id="id-4cc3b5f19a2e46a3b76c14d55eb09180" source="1afa11f0-95d5-48c2-8c22-aeb478532296" target="id-5f966c6cc9704c4b82902da0f9bd1435" archimateRelationship="77654c35-6a0b-4627-9da4-3a61ba804daf"/>
+              </child>
+              <child xsi:type="archimate:DiagramObject" id="id-f2fc4baaf7a7431d9483fe91074db112" targetConnections="id-759e8c52c39d449ca8a3bbb910f9fca8 id-6a43c2487e5c493ca1ad272ed6c126eb" archimateElement="id-b32e2f5b02044de9a8ae5e620f0e6f59">
+                <bounds x="36" y="144" width="180" height="24"/>
+                <sourceConnection xsi:type="archimate:Connection" id="id-c564fa3b79664367a85861ebfd4a6729" source="id-f2fc4baaf7a7431d9483fe91074db112" target="id-5f966c6cc9704c4b82902da0f9bd1435" archimateRelationship="id-09fc322d6896457ab57d8e29ae5a06eb"/>
               </child>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-338de7453a4c48c3910be8baae6a3054" textAlignment="1" archimateElement="id-47f0759a5fc343cd8a824ec53975088e">
-              <bounds x="228" y="420" width="240" height="144"/>
+              <bounds x="228" y="420" width="204" height="108"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-38b9551dcdc6465584f7e99865b6ba46" source="id-338de7453a4c48c3910be8baae6a3054" target="40c5bccc-f186-4089-83a1-7c2e4fab67c9" archimateRelationship="0a16394a-63dc-4b62-ae83-958c73fdf93b"/>
               <child xsi:type="archimate:DiagramObject" id="40c5bccc-f186-4089-83a1-7c2e4fab67c9" targetConnections="3f98510a-6fab-44b9-bfa6-8272332fe4fc id-38b9551dcdc6465584f7e99865b6ba46" archimateElement="b528605e-93f8-4f7f-8058-466f678525f7">
                 <bounds x="12" y="48" width="144" height="24"/>
@@ -2415,7 +2478,7 @@ commercial off-the-shelf (COTS), or government off-the-shelf (GOTS) products, or
                 <bounds x="36" y="60" width="96" height="48"/>
               </child>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="id-5f966c6cc9704c4b82902da0f9bd1435" targetConnections="id-c1b4a9bdb2d0458e8c3a3bb520b00b2c id-d8b737c9c81340eea5a44b19d228a0a6 id-4cc3b5f19a2e46a3b76c14d55eb09180 id-b168e0ada23e486cb5a2b9cf8a5b96fc" archimateElement="0d309f9e-dc12-4bc9-8be3-8a815b53d123">
+            <child xsi:type="archimate:DiagramObject" id="id-5f966c6cc9704c4b82902da0f9bd1435" targetConnections="id-c1b4a9bdb2d0458e8c3a3bb520b00b2c id-d8b737c9c81340eea5a44b19d228a0a6 id-4cc3b5f19a2e46a3b76c14d55eb09180 id-b168e0ada23e486cb5a2b9cf8a5b96fc id-c564fa3b79664367a85861ebfd4a6729" archimateElement="0d309f9e-dc12-4bc9-8be3-8a815b53d123">
               <bounds x="852" y="72" width="120" height="384"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-94046629a571483ea0e0d600ceb6bbb6" source="id-5f966c6cc9704c4b82902da0f9bd1435" target="id-dda61cc2d1f64cedafeee4324f133eb0" archimateRelationship="1aa0ca81-f524-48a6-8fda-78485f5a6274"/>
             </child>
@@ -2445,12 +2508,9 @@ commercial off-the-shelf (COTS), or government off-the-shelf (GOTS) products, or
         </element>
         <element xsi:type="archimate:ArchimateDiagramModel" name="View of functional architecture of module/page (C)  end to end" id="c6950dbc-38fc-4788-9f39-6577cc6612ef">
           <child xsi:type="archimate:Group" id="id-1c779f6a402a4f229409028e29b386c5" name="On-premise Pichincha" font="1|Segoe UI|9.75|1|WINDOWS|1|-13|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1">
-            <bounds x="168" y="672" width="1524" height="684"/>
-            <child xsi:type="archimate:DiagramObject" id="4e28057b-783e-47b5-aae7-a2af55e75f54" archimateElement="59864998-b2ce-4830-9133-67587909a229">
-              <bounds x="900" y="444" width="204" height="36"/>
-            </child>
+            <bounds x="168" y="660" width="1524" height="708"/>
             <child xsi:type="archimate:Group" id="id-bfcffcc08c714dc68e69934a1e033bd8" name="Database" textAlignment="1">
-              <bounds x="600" y="468" width="265" height="174"/>
+              <bounds x="696" y="492" width="205" height="120"/>
               <child xsi:type="archimate:DiagramObject" id="id-c7c69e1c0fd3489089acc28470c12c00" targetConnections="id-7520caace12a4f3ba88f956d8a466573 id-5184412443de45dea4a4154376ad2066 id-a4c1467e8de74f72bbb42e00ef98393b id-4c4df7ad179a4838be3eb1be83a793b9" archimateElement="a320f155-9ecf-487e-850e-20ef7500bdf6">
                 <bounds x="12" y="36" width="181" height="25"/>
               </child>
@@ -2461,8 +2521,8 @@ commercial off-the-shelf (COTS), or government off-the-shelf (GOTS) products, or
                 <bounds x="84" y="69" width="85" height="37"/>
               </child>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="id-590da8c395774e16b24132976445c3f3" textAlignment="1" fillColor="#d2d7d7" archimateElement="id-7ecc6b08f61f40b2917f7241b104583e">
-              <bounds x="480" y="87" width="445" height="302"/>
+            <child xsi:type="archimate:DiagramObject" id="id-590da8c395774e16b24132976445c3f3" targetConnections="id-85869fcc88874fbbbdc2ba8975ecfda9" textAlignment="1" fillColor="#d2d7d7" archimateElement="id-7ecc6b08f61f40b2917f7241b104583e">
+              <bounds x="480" y="111" width="385" height="302"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-11aed92752c54658a9e5c5a827c52e58" source="id-590da8c395774e16b24132976445c3f3" target="9e27ab2c-9d3a-4fb9-859e-30d424386ff1" archimateRelationship="id-8890604815c14ac48d552e2558dea836"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-d85c52422aef43ddbc396f70f9d28caa" source="id-590da8c395774e16b24132976445c3f3" target="cddd021a-5c7e-4a31-89a2-99c433cdec66" archimateRelationship="id-08a402d3679f4a0599d22cce31c04149"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-a55dd83810854dde96eb528363f2b002" source="id-590da8c395774e16b24132976445c3f3" target="4a045c2e-dea3-4ea8-b05d-fc06a8ef056c" archimateRelationship="id-a793a8ebb87f480d984be067cfc1f952"/>
@@ -2472,16 +2532,19 @@ commercial off-the-shelf (COTS), or government off-the-shelf (GOTS) products, or
               <sourceConnection xsi:type="archimate:Connection" id="id-0303751c63b744a2aea52abe2d030371" source="id-590da8c395774e16b24132976445c3f3" target="id-702e474e316c4329a9a7fc087193b7f8" archimateRelationship="id-1bfa8e88d20a4f10b27ff49f158c7787"/>
               <child xsi:type="archimate:DiagramObject" id="9e27ab2c-9d3a-4fb9-859e-30d424386ff1" targetConnections="0813cf82-93a5-49f7-a16e-86fd0613a10a id-11aed92752c54658a9e5c5a827c52e58" archimateElement="6a5c9728-5de2-42d0-9202-e58744401aa8">
                 <bounds x="48" y="24" width="221" height="24"/>
+                <sourceConnection xsi:type="archimate:Connection" id="id-f0013949692e41cda66154c72790011a" source="9e27ab2c-9d3a-4fb9-859e-30d424386ff1" target="id-d07ebccbfa1c4f56a5b6f7dbd17430a8" archimateRelationship="ed286651-4c0c-46ae-864b-0088c2c16048"/>
               </child>
               <child xsi:type="archimate:DiagramObject" id="cddd021a-5c7e-4a31-89a2-99c433cdec66" targetConnections="3b70350b-ffd3-45de-b311-a4db39a500c4 id-d85c52422aef43ddbc396f70f9d28caa" archimateElement="df8da701-e58d-4540-8efe-406fb466f057">
-                <bounds x="63" y="60" width="205" height="24"/>
+                <bounds x="12" y="60" width="169" height="24"/>
+                <sourceConnection xsi:type="archimate:Connection" id="id-99d31d865531402ba725ca1ad18b69b6" source="cddd021a-5c7e-4a31-89a2-99c433cdec66" target="d90b5a1c-7198-4a3f-b606-18fe552ce5e4" archimateRelationship="id-7686eeee48c54f1d8cb2d04bea7da1ca"/>
+                <sourceConnection xsi:type="archimate:Connection" id="id-61809044fcf7406b922ad0273a02ef8c" source="cddd021a-5c7e-4a31-89a2-99c433cdec66" target="id-0d60f89cfb5c49de82114feb12b8e77c" archimateRelationship="82cf06da-5bd3-4e2b-9df5-93e32193e8c5"/>
               </child>
               <child xsi:type="archimate:DiagramObject" id="4a045c2e-dea3-4ea8-b05d-fc06a8ef056c" targetConnections="cfcac648-4212-4b09-a7ab-f7a16e7e27be id-a55dd83810854dde96eb528363f2b002" archimateElement="729b8917-e022-405f-8752-ad8023ed90a9">
-                <bounds x="105" y="96" width="192" height="24"/>
+                <bounds x="180" y="96" width="192" height="24"/>
                 <sourceConnection xsi:type="archimate:Connection" id="id-5184412443de45dea4a4154376ad2066" source="4a045c2e-dea3-4ea8-b05d-fc06a8ef056c" target="id-c7c69e1c0fd3489089acc28470c12c00" archimateRelationship="f668ee61-ade4-4a08-b834-7cfc392dbb3d"/>
               </child>
               <child xsi:type="archimate:DiagramObject" id="459ecf23-fdc8-4deb-9101-d5b16e97f564" targetConnections="2a701d41-cc95-4c02-bb10-9f57b5bcfd30 id-999aac1c0dad41baa56a8c63c8d70623" archimateElement="aa92b3ec-e0b4-4355-864c-dc526ebc0d05">
-                <bounds x="63" y="132" width="192" height="28"/>
+                <bounds x="144" y="132" width="192" height="28"/>
                 <sourceConnection xsi:type="archimate:Connection" id="id-5ee48692dce34c78bbc89ac35245b8d3" source="459ecf23-fdc8-4deb-9101-d5b16e97f564" target="id-639b4280e64844849ed6117838a6f6c6" archimateRelationship="3363f2f2-2cbf-4aae-b7c3-6f42778dddfa"/>
                 <sourceConnection xsi:type="archimate:Connection" id="id-a4c1467e8de74f72bbb42e00ef98393b" source="459ecf23-fdc8-4deb-9101-d5b16e97f564" target="id-c7c69e1c0fd3489089acc28470c12c00" archimateRelationship="56eb3008-6b03-44a1-b2d1-2b49157588c1"/>
               </child>
@@ -2489,44 +2552,56 @@ commercial off-the-shelf (COTS), or government off-the-shelf (GOTS) products, or
                 <bounds x="95" y="168" width="211" height="24"/>
                 <sourceConnection xsi:type="archimate:Connection" id="id-a88ed32fba98483eafd68e03ebba9578" source="39eca1d4-f106-4833-b3f6-f339a5b134f1" target="id-639b4280e64844849ed6117838a6f6c6" archimateRelationship="e6577b36-4659-4319-af97-af237251bb7d"/>
               </child>
-              <child xsi:type="archimate:DiagramObject" id="d90b5a1c-7198-4a3f-b606-18fe552ce5e4" targetConnections="480f2909-f058-4033-b773-c3835cbcc067 id-cfb561301ebe468e9f0d6216b06d20ae" archimateElement="923ac964-fb25-45e0-bc69-1d076820425b">
-                <bounds x="90" y="204" width="222" height="24"/>
+              <child xsi:type="archimate:DiagramObject" id="d90b5a1c-7198-4a3f-b606-18fe552ce5e4" targetConnections="480f2909-f058-4033-b773-c3835cbcc067 id-cfb561301ebe468e9f0d6216b06d20ae id-99d31d865531402ba725ca1ad18b69b6" archimateElement="923ac964-fb25-45e0-bc69-1d076820425b">
+                <bounds x="12" y="204" width="222" height="24"/>
+                <sourceConnection xsi:type="archimate:Connection" id="id-f6d141138ba349c7abdcb8501e10e85b" source="d90b5a1c-7198-4a3f-b606-18fe552ce5e4" target="id-639b4280e64844849ed6117838a6f6c6" archimateRelationship="id-7f7cc37a96a6421089ccbae5acc77737"/>
+                <sourceConnection xsi:type="archimate:Connection" id="id-85869fcc88874fbbbdc2ba8975ecfda9" source="d90b5a1c-7198-4a3f-b606-18fe552ce5e4" target="id-590da8c395774e16b24132976445c3f3" archimateRelationship="id-4cab3e8be71742489ea09cd1ede48471"/>
               </child>
               <child xsi:type="archimate:DiagramObject" id="id-702e474e316c4329a9a7fc087193b7f8" targetConnections="id-0303751c63b744a2aea52abe2d030371 51a4451c-fe32-459e-9441-05ec9ae9181e" archimateElement="id-9218f12ec0554816ae639cc70423f958">
-                <bounds x="156" y="240" width="214" height="25"/>
+                <bounds x="51" y="264" width="192" height="25"/>
                 <sourceConnection xsi:type="archimate:Connection" id="id-4c4df7ad179a4838be3eb1be83a793b9" source="id-702e474e316c4329a9a7fc087193b7f8" target="id-c7c69e1c0fd3489089acc28470c12c00" archimateRelationship="id-8363f2ec04b94d2e9356fe3f3299fa7a"/>
               </child>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="id-639b4280e64844849ed6117838a6f6c6" targetConnections="id-a88ed32fba98483eafd68e03ebba9578 id-5ee48692dce34c78bbc89ac35245b8d3" textPosition="1" archimateElement="0d309f9e-dc12-4bc9-8be3-8a815b53d123">
-              <bounds x="972" y="66" width="145" height="325"/>
+            <child xsi:type="archimate:DiagramObject" id="id-639b4280e64844849ed6117838a6f6c6" targetConnections="id-a88ed32fba98483eafd68e03ebba9578 id-5ee48692dce34c78bbc89ac35245b8d3 id-f6d141138ba349c7abdcb8501e10e85b" textPosition="1" archimateElement="0d309f9e-dc12-4bc9-8be3-8a815b53d123">
+              <bounds x="924" y="132" width="145" height="325"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-e157b523f0f046c18bc335500925568e" source="id-639b4280e64844849ed6117838a6f6c6" target="id-6366eddc02ca4b2b9ecd6655cb9dab33" archimateRelationship="1aa0ca81-f524-48a6-8fda-78485f5a6274"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-f1830e609eec4bec94d08fa6e50a3c90" targetConnections="id-616eb3e72fd74445953f10237c0b9deb" textPosition="1" archimateElement="2b7636bc-9f4d-4dfc-a5f0-eedcdcaf9dbb">
-              <bounds x="1332" y="68" width="132" height="321"/>
+              <bounds x="1260" y="134" width="132" height="321"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-6366eddc02ca4b2b9ecd6655cb9dab33" targetConnections="id-e157b523f0f046c18bc335500925568e" textPosition="1" archimateElement="bdb23009-1c4a-4ff1-9390-372e50417465">
-              <bounds x="1164" y="69" width="120" height="320"/>
+              <bounds x="1104" y="135" width="120" height="320"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-616eb3e72fd74445953f10237c0b9deb" source="id-6366eddc02ca4b2b9ecd6655cb9dab33" target="id-f1830e609eec4bec94d08fa6e50a3c90" archimateRelationship="4a66ab99-1582-4610-80ac-2033320f973c"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-2cc8fcf7b2014e2db3f56b4ec83c0c65" targetConnections="id-a4870bb3af374b4b9c405038acedf6c7 id-3b02ed918eab447e97140f3039636b03" archimateElement="f5a75237-bb34-4cd4-bbd9-423e01f4319b">
-              <bounds x="180" y="552" width="120" height="55"/>
+              <bounds x="180" y="576" width="120" height="55"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-bb502a951ccc4f6fb3e4915452dcfed9" textAlignment="1" archimateElement="ae312613-765b-489a-a8fb-e903869338a3">
-              <bounds x="24" y="94" width="144" height="558"/>
+              <bounds x="24" y="96" width="144" height="578"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-3b65bfc651864ed79b27475eac90ed14" source="id-bb502a951ccc4f6fb3e4915452dcfed9" target="id-b7f8a95da90b4918b9a717660b974988" archimateRelationship="0dfdce4a-d068-4208-8234-f35923b2684e"/>
               <child xsi:type="archimate:DiagramObject" id="id-b7f8a95da90b4918b9a717660b974988" targetConnections="id-d2a2be5f76fa4b7fac1a57b0328c487b id-3b65bfc651864ed79b27475eac90ed14" archimateElement="d107708b-27b1-4458-8e46-ffb6f2a6d5c7">
-                <bounds x="12" y="60" width="109" height="61"/>
+                <bounds x="12" y="82" width="109" height="61"/>
                 <sourceConnection xsi:type="archimate:Connection" id="id-42c8433ef786439ab4399ece86da9fe2" source="id-b7f8a95da90b4918b9a717660b974988" target="1462593f-9274-418b-bb96-a18fbe038d86" archimateRelationship="35daaea0-9b05-4c2e-ab31-72033dbfd232"/>
               </child>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-78b9da001a534f5daa116a8619e1576e" textAlignment="1" archimateElement="b80eccea-f360-448e-8d83-8b1c5f554688">
-              <bounds x="348" y="456" width="180" height="108"/>
+              <bounds x="420" y="433" width="217" height="144"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-b87dec2c364f4225961516b5815143ee" source="id-78b9da001a534f5daa116a8619e1576e" target="f72ad836-5f7f-4098-8ffd-1a501ac2a8fb" archimateRelationship="1cdd4617-96c0-455f-9de3-a2546b522dfd"/>
+              <sourceConnection xsi:type="archimate:Connection" id="id-1f047f94eb46456eb9e2b422ffa8b27f" source="id-78b9da001a534f5daa116a8619e1576e" target="4e28057b-783e-47b5-aae7-a2af55e75f54" archimateRelationship="1350ea56-ae14-4404-a030-cc627bf6ef25"/>
               <child xsi:type="archimate:DiagramObject" id="f72ad836-5f7f-4098-8ffd-1a501ac2a8fb" targetConnections="024dde38-dc5d-466e-938b-ebe20751345b id-b87dec2c364f4225961516b5815143ee" archimateElement="36670964-42c3-4aba-b3bb-5a859ec19753">
-                <bounds x="24" y="36" width="120" height="55"/>
+                <bounds x="24" y="36" width="156" height="24"/>
                 <sourceConnection xsi:type="archimate:Connection" id="id-a4870bb3af374b4b9c405038acedf6c7" source="f72ad836-5f7f-4098-8ffd-1a501ac2a8fb" target="id-2cc8fcf7b2014e2db3f56b4ec83c0c65" archimateRelationship="bce471ff-6aca-4a67-a144-7459e15e376c"/>
                 <sourceConnection xsi:type="archimate:Connection" id="id-7520caace12a4f3ba88f956d8a466573" source="f72ad836-5f7f-4098-8ffd-1a501ac2a8fb" target="id-c7c69e1c0fd3489089acc28470c12c00" archimateRelationship="38b8c23e-41dc-41fa-9ff3-5fcd87bc415a"/>
               </child>
+              <child xsi:type="archimate:DiagramObject" id="4e28057b-783e-47b5-aae7-a2af55e75f54" targetConnections="id-1f047f94eb46456eb9e2b422ffa8b27f id-c0a5edfb3fae4729bdfc19a2b56a38b6" archimateElement="59864998-b2ce-4830-9133-67587909a229">
+                <bounds x="12" y="84" width="156" height="24"/>
+              </child>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="id-d07ebccbfa1c4f56a5b6f7dbd17430a8" targetConnections="id-f0013949692e41cda66154c72790011a" archimateElement="44059dea-bef8-4e7c-9b87-44be13d2cce7">
+              <bounds x="864" y="36" width="120" height="55"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="id-0d60f89cfb5c49de82114feb12b8e77c" targetConnections="id-61809044fcf7406b922ad0273a02ef8c" archimateElement="a2befa66-2705-492f-92ef-3d7de316a8c1">
+              <bounds x="408" y="24" width="120" height="55"/>
             </child>
           </child>
           <child xsi:type="archimate:Group" id="id-59aec94aa15c4f56b0717904aee87e21" name="Azure Cloud" font="1|Segoe UI|9.75|1|WINDOWS|1|-13|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1">
@@ -2548,10 +2623,10 @@ commercial off-the-shelf (COTS), or government off-the-shelf (GOTS) products, or
             </child>
           </child>
           <child xsi:type="archimate:DiagramObject" id="8dc20253-909c-4c4f-b147-d990fc13305c" textAlignment="1" fillColor="#d2d7d7" archimateElement="e09c5a9a-16ad-44d1-b1de-9d5ccb9ec3e8">
-            <bounds x="348" y="768" width="289" height="277"/>
+            <bounds x="348" y="756" width="289" height="289"/>
             <sourceConnection xsi:type="archimate:Connection" id="36eed170-1a90-4c8d-8e3d-ca7c41ba2c7e" source="8dc20253-909c-4c4f-b147-d990fc13305c" target="1462593f-9274-418b-bb96-a18fbe038d86" archimateRelationship="381eefad-3a0b-4cbd-8e0d-7ba500505497"/>
             <child xsi:type="archimate:DiagramObject" id="1462593f-9274-418b-bb96-a18fbe038d86" targetConnections="36eed170-1a90-4c8d-8e3d-ca7c41ba2c7e id-42c8433ef786439ab4399ece86da9fe2" archimateElement="0d9e2e0e-7565-4123-ae0b-d3058ab02b8c">
-              <bounds x="48" y="36" width="120" height="132"/>
+              <bounds x="48" y="48" width="120" height="84"/>
               <sourceConnection xsi:type="archimate:Connection" id="024dde38-dc5d-466e-938b-ebe20751345b" source="1462593f-9274-418b-bb96-a18fbe038d86" target="f72ad836-5f7f-4098-8ffd-1a501ac2a8fb" archimateRelationship="675e7d23-adcd-4eba-b573-dd1ce1db02f5"/>
               <sourceConnection xsi:type="archimate:Connection" id="2da9f678-a55d-442e-b5f7-2b754e1faa6e" source="1462593f-9274-418b-bb96-a18fbe038d86" target="47101dfa-0113-4ade-bf5d-be0363fa6a14" archimateRelationship="56e7a2d1-a8c8-4e92-b7f8-f61754a3841d"/>
               <sourceConnection xsi:type="archimate:Connection" id="3b70350b-ffd3-45de-b311-a4db39a500c4" source="1462593f-9274-418b-bb96-a18fbe038d86" target="cddd021a-5c7e-4a31-89a2-99c433cdec66" archimateRelationship="8d791742-df81-4d5c-9f29-03b79483856b"/>
@@ -2561,9 +2636,10 @@ commercial off-the-shelf (COTS), or government off-the-shelf (GOTS) products, or
               <sourceConnection xsi:type="archimate:Connection" id="c6701fda-7f15-4352-a127-2aa48e5705a2" source="1462593f-9274-418b-bb96-a18fbe038d86" target="39eca1d4-f106-4833-b3f6-f339a5b134f1" archimateRelationship="bce58925-44a7-4189-89c3-97219b8db624"/>
               <sourceConnection xsi:type="archimate:Connection" id="480f2909-f058-4033-b773-c3835cbcc067" source="1462593f-9274-418b-bb96-a18fbe038d86" target="d90b5a1c-7198-4a3f-b606-18fe552ce5e4" archimateRelationship="2dfc61b3-235b-4042-baaf-85607567c08b"/>
               <sourceConnection xsi:type="archimate:Connection" id="51a4451c-fe32-459e-9441-05ec9ae9181e" source="1462593f-9274-418b-bb96-a18fbe038d86" target="id-702e474e316c4329a9a7fc087193b7f8" archimateRelationship="6cb496f8-db96-41e7-b311-d31b8fee5751"/>
+              <sourceConnection xsi:type="archimate:Connection" id="id-c0a5edfb3fae4729bdfc19a2b56a38b6" source="1462593f-9274-418b-bb96-a18fbe038d86" target="4e28057b-783e-47b5-aae7-a2af55e75f54" archimateRelationship="id-8e446612e92540908681e2ee2e7df83e"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="47101dfa-0113-4ade-bf5d-be0363fa6a14" targetConnections="2da9f678-a55d-442e-b5f7-2b754e1faa6e" archimateElement="b528605e-93f8-4f7f-8058-466f678525f7">
-              <bounds x="24" y="204" width="120" height="55"/>
+              <bounds x="24" y="216" width="120" height="55"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-3b02ed918eab447e97140f3039636b03" source="47101dfa-0113-4ade-bf5d-be0363fa6a14" target="id-2cc8fcf7b2014e2db3f56b4ec83c0c65" archimateRelationship="id-4d1619b8376c462a9e2a4cbb224a1afb"/>
             </child>
           </child>
