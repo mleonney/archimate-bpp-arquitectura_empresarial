@@ -2138,7 +2138,7 @@ commercial off-the-shelf (COTS), or government off-the-shelf (GOTS) products, or
               <bounds x="780" y="24" width="133" height="37"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="895907c2-99df-4aed-89dc-777bac8cc5b6" font="1|Segoe UI|10.0|1|WINDOWS|1|-20|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" fillColor="#d2d7d7" archimateElement="b80eccea-f360-448e-8d83-8b1c5f554688">
-              <bounds x="492" y="312" width="301" height="192"/>
+              <bounds x="504" y="276" width="301" height="192"/>
               <sourceConnection xsi:type="archimate:Connection" id="f71a17a0-a15c-4670-8bce-e0619bb91a1a" source="895907c2-99df-4aed-89dc-777bac8cc5b6" target="beb7cd6a-6781-4a15-a024-c29fee20ebbc" archimateRelationship="7f8c4134-4074-45f3-98b2-17a9505e78e6"/>
               <sourceConnection xsi:type="archimate:Connection" id="a968ed47-828a-4051-a552-9cf05a713248" source="895907c2-99df-4aed-89dc-777bac8cc5b6" target="a6be73e7-b5b0-4997-b7b2-03ec99e7747a" archimateRelationship="1350ea56-ae14-4404-a030-cc627bf6ef25"/>
               <sourceConnection xsi:type="archimate:Connection" id="ee42e8fe-5a34-4464-9c86-6ba1e879e13f" source="895907c2-99df-4aed-89dc-777bac8cc5b6" target="c9df1f27-b3b5-4ca9-9554-9b3bdba164e1" archimateRelationship="1cdd4617-96c0-455f-9de3-a2546b522dfd"/>

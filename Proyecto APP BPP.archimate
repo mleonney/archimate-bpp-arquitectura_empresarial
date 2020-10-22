@@ -418,7 +418,7 @@
             <property key="Versión de implementación" value="1.0.0"/>
           </element>
         </folder>
-        <folder name="MSA Support" id="9499a6ec-17e1-41cf-9d4b-2e8e737d3e3e">
+        <folder name="MSA Multi-channel Support" id="9499a6ec-17e1-41cf-9d4b-2e8e737d3e3e">
           <element xsi:type="archimate:ApplicationService" name="wu-provider" id="3c0037dc-f325-4d78-910c-e0ac37769887">
             <property key="Nombre del servicio" value="jarvis-cross-services-ach-fulfillment"/>
             <property key="Descripción"/>
@@ -818,44 +818,6 @@ Invoca: &#xD;
             <property key="Plataforma/Instancia" value="OpenShift Cluster K8S"/>
             <property key="Versión de implementación" value="1.5.4"/>
           </element>
-          <element xsi:type="archimate:ApplicationService" name="user-preference" id="b528605e-93f8-4f7f-8058-466f678525f7">
-            <property key="Nombre del servicio" value="jsc-user-preference"/>
-            <property key="Descripción"/>
-            <property key="Categoría" value="Servicio de Experiencia"/>
-            <property key="Tipo de solución lógica" value="Compuesto"/>
-            <property key="Disponibilidad" value="24x7"/>
-            <property key="Proceso de negocio"/>
-            <property key="Estado" value="Producción"/>
-            <property key="Dueño del Servicio"/>
-            <property key="Interfaz" value="API REST"/>
-            <property key="API Contract" value="https://jsc-mbbk-user-preference-v1-cal.ocpappcal.financiero.bco/swagger-ui.html"/>
-            <property key="Función 1" value="Valida el número de intentos para verificar la huella digital."/>
-            <property key="Función 2" value="Consulta los feriados dentro del rango especificado en los parámetros."/>
-            <property key="Función 3" value="Permite obtener los parámetros de la aplicación."/>
-            <property key="Función 4" value="Consulta la información del Cliente."/>
-            <property key="Función 5" value="Consulta información del tipo de cambio de divisas."/>
-            <property key="Función 6" value="Consulta información de las configuraciones de preferencias del usuario."/>
-            <property key="Función 7" value="Actualiza información de las configuraciones de preferencias del usuario."/>
-            <property key="Función 8" value="Consulta datos de contacto e información personal del cliente."/>
-            <property key="Función 9" value="Consulta las configuraciones activas de los productos."/>
-            <property key="Función 10" value="Permite obtener el número de transacción."/>
-            <property key="URL Función 1" value="[POST] https://jsc-mbbk-user-preference-v1-cal.ocpappcal.financiero.bco​/support-channel​/mbbk​/v1.0​/user-preference​/biometric-failed-attempts"/>
-            <property key="URL Función 2" value="[GET] https://jsc-mbbk-user-preference-v1-cal.ocpappcal.financiero.bco​/support-channel​/mbbk​/v1.0​/user-preference​/holidays"/>
-            <property key="URL Función 3" value="[GET] https://jsc-mbbk-user-preference-v1-cal.ocpappcal.financiero.bco​/support-channel​/mbbk​/v1.0​/user-preference​/parameters"/>
-            <property key="URL Función 4" value="[GET] https://jsc-mbbk-user-preference-v1-cal.ocpappcal.financiero.bco​/support-channel​/mbbk​/v1.0​/user-preference​/persons​/{personId}"/>
-            <property key="URL Función 5" value="[GET] https://jsc-mbbk-user-preference-v1-cal.ocpappcal.financiero.bco​/support-channel​/mbbk​/v1.0​/user-preference​/persons​/{personId}​/exchange-rate"/>
-            <property key="URL Función 6" value="[GET] https://jsc-mbbk-user-preference-v1-cal.ocpappcal.financiero.bco​/support-channel​/mbbk​/v1.0​/user-preference​/persons​/{personId}​/settings"/>
-            <property key="URL Función 7" value="[PATCH] https://jsc-mbbk-user-preference-v1-cal.ocpappcal.financiero.bco​/support-channel​/mbbk​/v1.0​/user-preference​/persons​/{personId}​/settings"/>
-            <property key="URL Función 8" value="[GET] https://jsc-mbbk-user-preference-v1-cal.ocpappcal.financiero.bco​/support-channel​/mbbk​/v1.0​/user-preference​/persons​/{personId}​/users-info"/>
-            <property key="URL Función 9" value="[GET] https://jsc-mbbk-user-preference-v1-cal.ocpappcal.financiero.bco​/support-channel​/mbbk​/v1.0​/user-preference​/products-preference"/>
-            <property key="URL Función 10" value="[POST] https://jsc-mbbk-user-preference-v1-cal.ocpappcal.financiero.bco​/support-channel​/mbbk​/v1.0​/user-preference​/transaction-sequences"/>
-            <property key="Seguridad"/>
-            <property key="Tecnología" value="Java + Spring"/>
-            <property key="Tipo de integración" value="Sincrono"/>
-            <property key="Ubicación" value="On-premise"/>
-            <property key="Plataforma/Instancia" value="OpenShift Cluster K8S"/>
-            <property key="Versión de implementación" value="1.5.3"/>
-          </element>
           <element xsi:type="archimate:ApplicationService" name="mbbk-virtual-keyboards" id="id-1d31c55e02bc44cbac2995e8b06c7def">
             <property key="Nombre del servicio" value="jarvis-channel-mbbk-virtual-keyboards"/>
             <property key="Descripción"/>
@@ -895,6 +857,46 @@ Invoca: &#xD;
           <element xsi:type="archimate:DataObject" name="Person_device" id="id-75a2d0fcb5464dbea97f6c134f5562b4"/>
           <element xsi:type="archimate:DataObject" name="Device" id="id-58c0c7ffc607450e9bb02c2c4406c325"/>
           <element xsi:type="archimate:DataObject" name="product_config" id="id-ed3191711cd442b993865ef4f737b6a7"/>
+        </folder>
+        <folder name="MSA Channel Support" id="id-f20bbeada3484e2eb888b01ef5360b8b">
+          <element xsi:type="archimate:ApplicationService" name="user-preference" id="b528605e-93f8-4f7f-8058-466f678525f7">
+            <property key="Nombre del servicio" value="jsc-user-preference"/>
+            <property key="Descripción"/>
+            <property key="Categoría" value="Servicio de Experiencia"/>
+            <property key="Tipo de solución lógica" value="Compuesto"/>
+            <property key="Disponibilidad" value="24x7"/>
+            <property key="Proceso de negocio"/>
+            <property key="Estado" value="Producción"/>
+            <property key="Dueño del Servicio"/>
+            <property key="Interfaz" value="API REST"/>
+            <property key="API Contract" value="https://jsc-mbbk-user-preference-v1-cal.ocpappcal.financiero.bco/swagger-ui.html"/>
+            <property key="Función 1" value="Valida el número de intentos para verificar la huella digital."/>
+            <property key="Función 2" value="Consulta los feriados dentro del rango especificado en los parámetros."/>
+            <property key="Función 3" value="Permite obtener los parámetros de la aplicación."/>
+            <property key="Función 4" value="Consulta la información del Cliente."/>
+            <property key="Función 5" value="Consulta información del tipo de cambio de divisas."/>
+            <property key="Función 6" value="Consulta información de las configuraciones de preferencias del usuario."/>
+            <property key="Función 7" value="Actualiza información de las configuraciones de preferencias del usuario."/>
+            <property key="Función 8" value="Consulta datos de contacto e información personal del cliente."/>
+            <property key="Función 9" value="Consulta las configuraciones activas de los productos."/>
+            <property key="Función 10" value="Permite obtener el número de transacción."/>
+            <property key="URL Función 1" value="[POST] https://jsc-mbbk-user-preference-v1-cal.ocpappcal.financiero.bco​/support-channel​/mbbk​/v1.0​/user-preference​/biometric-failed-attempts"/>
+            <property key="URL Función 2" value="[GET] https://jsc-mbbk-user-preference-v1-cal.ocpappcal.financiero.bco​/support-channel​/mbbk​/v1.0​/user-preference​/holidays"/>
+            <property key="URL Función 3" value="[GET] https://jsc-mbbk-user-preference-v1-cal.ocpappcal.financiero.bco​/support-channel​/mbbk​/v1.0​/user-preference​/parameters"/>
+            <property key="URL Función 4" value="[GET] https://jsc-mbbk-user-preference-v1-cal.ocpappcal.financiero.bco​/support-channel​/mbbk​/v1.0​/user-preference​/persons​/{personId}"/>
+            <property key="URL Función 5" value="[GET] https://jsc-mbbk-user-preference-v1-cal.ocpappcal.financiero.bco​/support-channel​/mbbk​/v1.0​/user-preference​/persons​/{personId}​/exchange-rate"/>
+            <property key="URL Función 6" value="[GET] https://jsc-mbbk-user-preference-v1-cal.ocpappcal.financiero.bco​/support-channel​/mbbk​/v1.0​/user-preference​/persons​/{personId}​/settings"/>
+            <property key="URL Función 7" value="[PATCH] https://jsc-mbbk-user-preference-v1-cal.ocpappcal.financiero.bco​/support-channel​/mbbk​/v1.0​/user-preference​/persons​/{personId}​/settings"/>
+            <property key="URL Función 8" value="[GET] https://jsc-mbbk-user-preference-v1-cal.ocpappcal.financiero.bco​/support-channel​/mbbk​/v1.0​/user-preference​/persons​/{personId}​/users-info"/>
+            <property key="URL Función 9" value="[GET] https://jsc-mbbk-user-preference-v1-cal.ocpappcal.financiero.bco​/support-channel​/mbbk​/v1.0​/user-preference​/products-preference"/>
+            <property key="URL Función 10" value="[POST] https://jsc-mbbk-user-preference-v1-cal.ocpappcal.financiero.bco​/support-channel​/mbbk​/v1.0​/user-preference​/transaction-sequences"/>
+            <property key="Seguridad"/>
+            <property key="Tecnología" value="Java + Spring"/>
+            <property key="Tipo de integración" value="Sincrono"/>
+            <property key="Ubicación" value="On-premise"/>
+            <property key="Plataforma/Instancia" value="OpenShift Cluster K8S"/>
+            <property key="Versión de implementación" value="1.5.3"/>
+          </element>
         </folder>
       </folder>
       <documentation>Aplicaciones que se encuentran en nube privada del Banco como APIs, Servicios, Datos, Core y Legados.</documentation>
@@ -2119,7 +2121,7 @@ commercial off-the-shelf (COTS), or government off-the-shelf (GOTS) products, or
               </child>
             </child>
             <child xsi:type="archimate:DiagramObject" id="e000dd7c-2fc5-4b8b-8f95-a0e9f820572e" font="1|Segoe UI|10.0|1|WINDOWS|1|-20|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" fillColor="#d2d7d7" archimateElement="495b2f69-ee46-4633-8368-cae5f63fee1f">
-              <bounds x="504" y="60" width="349" height="169"/>
+              <bounds x="504" y="60" width="349" height="241"/>
               <sourceConnection xsi:type="archimate:Connection" id="281bf040-b374-4606-8775-7df6b53d97d2" source="e000dd7c-2fc5-4b8b-8f95-a0e9f820572e" target="3eca3a28-d032-4f41-a942-08e743bb26ca" archimateRelationship="cc9e378d-3b7a-496b-a614-e31d178114b3"/>
               <sourceConnection xsi:type="archimate:Connection" id="5573e61d-a595-4e91-a4b5-e38056574480" source="e000dd7c-2fc5-4b8b-8f95-a0e9f820572e" target="207b0364-62e8-42af-8804-739cae33f059" archimateRelationship="9cd1f4ce-4a67-49ce-81bd-a2b1e97c6265"/>
               <child xsi:type="archimate:DiagramObject" id="207b0364-62e8-42af-8804-739cae33f059" targetConnections="561e45b4-3b27-418e-93c7-0dc8d936bf5f 5573e61d-a595-4e91-a4b5-e38056574480" archimateElement="5175543a-ac94-4262-9e86-16b0162c57ba">
@@ -2138,7 +2140,7 @@ commercial off-the-shelf (COTS), or government off-the-shelf (GOTS) products, or
               <bounds x="780" y="24" width="133" height="37"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="895907c2-99df-4aed-89dc-777bac8cc5b6" font="1|Segoe UI|10.0|1|WINDOWS|1|-20|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" fillColor="#d2d7d7" archimateElement="b80eccea-f360-448e-8d83-8b1c5f554688">
-              <bounds x="504" y="276" width="301" height="192"/>
+              <bounds x="492" y="312" width="301" height="192"/>
               <sourceConnection xsi:type="archimate:Connection" id="f71a17a0-a15c-4670-8bce-e0619bb91a1a" source="895907c2-99df-4aed-89dc-777bac8cc5b6" target="beb7cd6a-6781-4a15-a024-c29fee20ebbc" archimateRelationship="7f8c4134-4074-45f3-98b2-17a9505e78e6"/>
               <sourceConnection xsi:type="archimate:Connection" id="a968ed47-828a-4051-a552-9cf05a713248" source="895907c2-99df-4aed-89dc-777bac8cc5b6" target="a6be73e7-b5b0-4997-b7b2-03ec99e7747a" archimateRelationship="1350ea56-ae14-4404-a030-cc627bf6ef25"/>
               <sourceConnection xsi:type="archimate:Connection" id="ee42e8fe-5a34-4464-9c86-6ba1e879e13f" source="895907c2-99df-4aed-89dc-777bac8cc5b6" target="c9df1f27-b3b5-4ca9-9554-9b3bdba164e1" archimateRelationship="1cdd4617-96c0-455f-9de3-a2546b522dfd"/>
@@ -2601,7 +2603,7 @@ commercial off-the-shelf (COTS), or government off-the-shelf (GOTS) products, or
               <bounds x="864" y="36" width="120" height="55"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-0d60f89cfb5c49de82114feb12b8e77c" targetConnections="id-61809044fcf7406b922ad0273a02ef8c" archimateElement="a2befa66-2705-492f-92ef-3d7de316a8c1">
-              <bounds x="408" y="24" width="120" height="55"/>
+              <bounds x="480" y="24" width="120" height="55"/>
             </child>
           </child>
           <child xsi:type="archimate:Group" id="id-59aec94aa15c4f56b0717904aee87e21" name="Azure Cloud" font="1|Segoe UI|9.75|1|WINDOWS|1|-13|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1">
@@ -2626,7 +2628,7 @@ commercial off-the-shelf (COTS), or government off-the-shelf (GOTS) products, or
             <bounds x="348" y="756" width="289" height="289"/>
             <sourceConnection xsi:type="archimate:Connection" id="36eed170-1a90-4c8d-8e3d-ca7c41ba2c7e" source="8dc20253-909c-4c4f-b147-d990fc13305c" target="1462593f-9274-418b-bb96-a18fbe038d86" archimateRelationship="381eefad-3a0b-4cbd-8e0d-7ba500505497"/>
             <child xsi:type="archimate:DiagramObject" id="1462593f-9274-418b-bb96-a18fbe038d86" targetConnections="36eed170-1a90-4c8d-8e3d-ca7c41ba2c7e id-42c8433ef786439ab4399ece86da9fe2" archimateElement="0d9e2e0e-7565-4123-ae0b-d3058ab02b8c">
-              <bounds x="48" y="48" width="120" height="84"/>
+              <bounds x="48" y="48" width="120" height="132"/>
               <sourceConnection xsi:type="archimate:Connection" id="024dde38-dc5d-466e-938b-ebe20751345b" source="1462593f-9274-418b-bb96-a18fbe038d86" target="f72ad836-5f7f-4098-8ffd-1a501ac2a8fb" archimateRelationship="675e7d23-adcd-4eba-b573-dd1ce1db02f5"/>
               <sourceConnection xsi:type="archimate:Connection" id="2da9f678-a55d-442e-b5f7-2b754e1faa6e" source="1462593f-9274-418b-bb96-a18fbe038d86" target="47101dfa-0113-4ade-bf5d-be0363fa6a14" archimateRelationship="56e7a2d1-a8c8-4e92-b7f8-f61754a3841d"/>
               <sourceConnection xsi:type="archimate:Connection" id="3b70350b-ffd3-45de-b311-a4db39a500c4" source="1462593f-9274-418b-bb96-a18fbe038d86" target="cddd021a-5c7e-4a31-89a2-99c433cdec66" archimateRelationship="8d791742-df81-4d5c-9f29-03b79483856b"/>
