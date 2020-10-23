@@ -67,11 +67,11 @@
             <property key="Estado" value="Producción"/>
             <property key="Dueño del Servicio"/>
             <property key="Interfaz" value="API REST"/>
-            <property key="API Contract" value="https://ach-fulfillment-v1-cal.ocpappcal.financiero.bco/swagger-ui.html"/>
+            <property key="API Contract" value="https://ach-fulfillment-v1-des.ocpappdes.financiero.bco/swagger-ui.html"/>
             <property key="Función 1" value="Permite ejecutar la transferencia inmediata hacia cuentas de otros bancos."/>
             <property key="Función 2" value="Permite previsualizar la transferencia para que el cliente pueda verificar la transacción."/>
-            <property key="URL Función 1" value="[POST] https://ach-fulfillment-v1-cal.ocpappcal.financiero.bco/payments/ach-fulfillment/v1.0/immediate-external-transfers"/>
-            <property key="URL Función 2" value="[POST] https://ach-fulfillment-v1-cal.ocpappcal.financiero.bco/payments/ach-fulfillment/v1.0/immediate-external-transfers/verify"/>
+            <property key="URL Función 1" value="[POST] https://ach-fulfillment-v1-des.ocpappdes.financiero.bco/payments/ach-fulfillment/v1.0/immediate-external-transfers"/>
+            <property key="URL Función 2" value="[POST] https://ach-fulfillment-v1-des.ocpappdes.financiero.bco/payments/ach-fulfillment/v1.0/immediate-external-transfers/verify"/>
             <property key="Seguridad"/>
             <property key="Tecnología" value="Java + Spring"/>
             <property key="Tipo de integración" value="Sincrono"/>
@@ -89,13 +89,13 @@
             <property key="Estado" value="Producción"/>
             <property key="Dueño del Servicio"/>
             <property key="Interfaz" value="API REST"/>
-            <property key="API Contract" value="https://citizens-v1-cal.ocpappcal.financiero.bco/swagger-ui.html"/>
+            <property key="API Contract" value="https://citizens-v1-des.ocpappdes.financiero.bco/swagger-ui.html"/>
             <property key="Función 1" value="Permite obtener información de un ciudadano mediante su número de documento de identidad."/>
             <property key="Función 2" value="Permite validar la identidad de la persona mediante su huella dactilar y su dni."/>
             <property key="Función 3" value="Permite obtener las mejores huellas mediante el dni de la persona."/>
-            <property key="URL Función 1" value="[GET] https://citizens-v1-cal.ocpappcal.financiero.bco​/party​/party-data-management​/v1.0​/citizens​/{identificationNumber}"/>
-            <property key="URL Función 2" value="[POST] https://citizens-v1-cal.ocpappcal.financiero.bco​/party​/party-data-management​/v1.0​/citizens​/fingerprints​/validate"/>
-            <property key="URL Función 3" value="[GET] https://citizens-v1-cal.ocpappcal.financiero.bco​/party​/party-data-management​/v1.0​/citizens​/fingerprints​/view"/>
+            <property key="URL Función 1" value="[GET] https://citizens-v1-des.ocpappdes.financiero.bco​/party​/party-data-management​/v1.0​/citizens​/{identificationNumber}"/>
+            <property key="URL Función 2" value="[POST] https://citizens-v1-des.ocpappdes.financiero.bco​/party​/party-data-management​/v1.0​/citizens​/fingerprints​/validate"/>
+            <property key="URL Función 3" value="[GET] https://citizens-v1-des.ocpappdes.financiero.bco​/party​/party-data-management​/v1.0​/citizens​/fingerprints​/view"/>
             <property key="Seguridad"/>
             <property key="Tecnología" value="Java + Spring"/>
             <property key="Tipo de integración" value="Sincrono"/>
@@ -167,11 +167,11 @@
             <property key="Estado" value="Producción"/>
             <property key="Dueño del Servicio"/>
             <property key="Interfaz" value="API REST"/>
-            <property key="API Contract" value="https://customer-agreement-v1-cal.ocpappcal.financiero.bco/swagger-ui.html"/>
+            <property key="API Contract" value="https://customer-agreement-v1-des.ocpappdes.financiero.bco/swagger-ui.html"/>
             <property key="Función 1" value="Registra los términos y condiciones del cliente mediante su código IBS."/>
             <property key="Función 2" value="Obtiene una colección de los términos y condiciones del cliente mediante su código IBS."/>
-            <property key="URL Función 1" value="[POST] https://customer-agreement-v1-cal.ocpappcal.financiero.bco​/customer-management​/customer-agreement​/v1.0​/data-usage-agreements"/>
-            <property key="URL Función 2" value="[GET] https://customer-agreement-v1-cal.ocpappcal.financiero.bco​/customer-management​/customer-agreement​/v1.0​/data-usage-agreements​/{personId}"/>
+            <property key="URL Función 1" value="[POST] https://customer-agreement-v1-des.ocpappdes.financiero.bco​/customer-management​/customer-agreement​/v1.0​/data-usage-agreements"/>
+            <property key="URL Función 2" value="[GET] https://customer-agreement-v1-des.ocpappdes.financiero.bco​/customer-management​/customer-agreement​/v1.0​/data-usage-agreements​/{personId}"/>
             <property key="Seguridad"/>
             <property key="Tecnología" value="Java + Spring"/>
             <property key="Tipo de integración" value="Sincrono"/>
@@ -189,11 +189,11 @@
             <property key="Estado" value="Producción"/>
             <property key="Dueño del Servicio"/>
             <property key="Interfaz" value="API REST"/>
-            <property key="API Contract" value="https://loan-v2-cal.ocpappcal.financiero.bco/swagger-ui.html"/>
+            <property key="API Contract" value="https://loan-v2-des.ocpappdes.financiero.bco/swagger-ui.html"/>
             <property key="Función 1" value="Permite obtener una colección de todos los préstamos del cliente."/>
             <property key="Función 2" value="Consulta el detalle de un préstamo, mediante el número de préstamo."/>
-            <property key="URL Función 1" value="[GET] https://loan-v2-cal.ocpappcal.financiero.bco​/loans-deposits​/loan​/v2.0​/loans"/>
-            <property key="URL Función 2" value="[GET] https://loan-v2-cal.ocpappcal.financiero.bco​/loans-deposits​/loan​/v2.0​/loans​/{loanId}"/>
+            <property key="URL Función 1" value="[GET] https://loan-v2-des.ocpappdes.financiero.bco​/loans-deposits​/loan​/v2.0​/loans"/>
+            <property key="URL Función 2" value="[GET] https://loan-v2-des.ocpappdes.financiero.bco​/loans-deposits​/loan​/v2.0​/loans​/{loanId}"/>
             <property key="Seguridad"/>
             <property key="Tecnología" value="Java + Spring"/>
             <property key="Tipo de integración" value="Sincrono"/>
@@ -287,15 +287,15 @@
             <property key="Estado" value="Producción"/>
             <property key="Dueño del Servicio"/>
             <property key="Interfaz" value="API REST"/>
-            <property key="API Contract" value="https://personal-account-v2-cal.ocpappcal.financiero.bco/swagger-ui.html"/>
+            <property key="API Contract" value="https://personal-account-v2-des.ocpappdes.financiero.bco/swagger-ui.html"/>
             <property key="Función 1" value="Permite obtener la colección de movimientos de una cuenta."/>
             <property key="Función 2" value="Permite obtener la colección de las cuentas de un cliente."/>
             <property key="Función 3" value="Permite registrar una nueva cuenta asociada a un cliente."/>
             <property key="Función 4" value="Permite obtener la información de la cuenta del cliente."/>
-            <property key="URL Función 1" value="[GET] https://personal-account-v2-cal.ocpappcal.financiero.bco/loans-deposits/personal-account/v2.0/account-transactions"/>
-            <property key="URL Función 2" value="[GET] https://personal-account-v2-cal.ocpappcal.financiero.bco/loans-deposits/personal-account/v2.0/accounts "/>
-            <property key="URL Función 3" value="[POST] https://personal-account-v2-cal.ocpappcal.financiero.bco/loans-deposits/personal-account/v2.0/accounts"/>
-            <property key="URL Función 4" value="[GET] https://personal-account-v2-cal.ocpappcal.financiero.bco/loans-deposits/personal-account/v2.0/accounts/{accountId}"/>
+            <property key="URL Función 1" value="[GET] https://personal-account-v2-des.ocpappdes.financiero.bco/loans-deposits/personal-account/v2.0/account-transactions"/>
+            <property key="URL Función 2" value="[GET] https://personal-account-v2-des.ocpappdes.financiero.bco/loans-deposits/personal-account/v2.0/accounts "/>
+            <property key="URL Función 3" value="[POST] https://personal-account-v2-des.ocpappdes.financiero.bco/loans-deposits/personal-account/v2.0/accounts"/>
+            <property key="URL Función 4" value="[GET] https://personal-account-v2-des.ocpappdes.financiero.bco/loans-deposits/personal-account/v2.0/accounts/{accountId}"/>
             <property key="Seguridad"/>
             <property key="Tecnología" value="Java + Spring"/>
             <property key="Tipo de integración" value="Sincrono"/>
@@ -313,17 +313,17 @@
             <property key="Estado" value="Producción"/>
             <property key="Dueño del Servicio"/>
             <property key="Interfaz" value="API REST"/>
-            <property key="API Contract" value="https://product-service-v1-cal.ocpappcal.financiero.bco/swagger-ui.html"/>
+            <property key="API Contract" value="https://transaction-authorization-v1-des.ocpappdes.financiero.bco/swagger-ui.html"/>
             <property key="Función 1" value="Permite consultar las tarjetas de un cliente por código IBS."/>
             <property key="Función 2" value="Valida que el PIN corresponde a la tarjeta del cliente."/>
             <property key="Función 3" value="Devuelve una lista de las operaciones frecuentes sobre los productos de un cliente."/>
             <property key="Función 4" value="Registra un favorito de operaciones sobre un producto del cliente."/>
             <property key="Función 5" value="Elimina un favorito de operaciones frecuente sobre un producto del cliente."/>
-            <property key="URL Función 1" value="[GET] https://product-service-v1-cal.ocpappcal.financiero.bco​/customer-management​/product-service​/v1.0​/cards"/>
-            <property key="URL Función 2" value="[POST] https://product-service-v1-cal.ocpappcal.financiero.bco​/customer-management​/product-service​/v1.0​/cards​/validate"/>
-            <property key="URL Función 3" value="[GET] https://product-service-v1-cal.ocpappcal.financiero.bco​/customer-management​/product-service​/v1.0​/favorites"/>
-            <property key="URL Función 4" value="[POST] https://product-service-v1-cal.ocpappcal.financiero.bco​/customer-management​/product-service​/v1.0​/favorites"/>
-            <property key="URL Función 5" value="[DELETE] https://product-service-v1-cal.ocpappcal.financiero.bco​/customer-management​/product-service​/v1.0​/favorites​/{favoriteId}"/>
+            <property key="URL Función 1" value="[GET] https://product-service-v1-des.ocpappdes.financiero.bco​/customer-management​/product-service​/v1.0​/cards"/>
+            <property key="URL Función 2" value="[POST] https://product-service-v1-des.ocpappdes.financiero.bco​/customer-management​/product-service​/v1.0​/cards​/validate"/>
+            <property key="URL Función 3" value="[GET] https://product-service-v1-des.ocpappdes.financiero.bco​/customer-management​/product-service​/v1.0​/favorites"/>
+            <property key="URL Función 4" value="[POST] https://product-service-v1-des.ocpappdes.financiero.bco​/customer-management​/product-service​/v1.0​/favorites"/>
+            <property key="URL Función 5" value="[DELETE] https://product-service-v1-des.ocpappdes.financiero.bco​/customer-management​/product-service​/v1.0​/favorites​/{favoriteId}"/>
             <property key="Seguridad"/>
             <property key="Tecnología" value="Java + Spring"/>
             <property key="Tipo de integración" value="Sincrono"/>
@@ -341,9 +341,9 @@
             <property key="Estado" value="Producción"/>
             <property key="Dueño del Servicio"/>
             <property key="Interfaz" value="API REST"/>
-            <property key="API Contract" value="https://transaction-authorization-v1-cal.ocpappcal.financiero.bco/swagger-ui.html"/>
+            <property key="API Contract" value="https://transaction-authorization-v1-des.ocpappdes.financiero.bco/swagger-ui.html"/>
             <property key="Función 1" value="Permite obtener los límites de transferencias por código de canal."/>
-            <property key="URL Función 1" value="[GET] https://transaction-authorization-v1-cal.ocpappcal.financiero.bco​/cross-channel​/transaction-authorization​/v1.0​/transaction-limits"/>
+            <property key="URL Función 1" value="[GET] https://transaction-authorization-v1-des.ocpappdes.financiero.bco​/cross-channel​/transaction-authorization​/v1.0​/transaction-limits"/>
             <property key="Seguridad"/>
             <property key="Tecnología" value="Java + Spring"/>
             <property key="Tipo de integración" value="Sincrono"/>
@@ -361,9 +361,9 @@
             <property key="Estado" value="Producción"/>
             <property key="Dueño del Servicio"/>
             <property key="Interfaz" value="API REST"/>
-            <property key="API Contract" value="https://party-authentication-v1-cal.ocpappcal.financiero.bco/swagger-ui.html"/>
+            <property key="API Contract" value="https://party-authentication-v1-des.ocpappdes.financiero.bco/swagger-ui.html"/>
             <property key="Función 1" value="Valida la autenticidad del cliente, mediante el numero de tarjeta y la clave digital asignada a la misma."/>
-            <property key="URL Función 1" value="[POST] https://party-authentication-v1-cal.ocpappcal.financiero.bco​/cross-channel​/party-authentication​/v1.0​/customers-password​/{personId}​/validate "/>
+            <property key="URL Función 1" value="[POST] https://party-authentication-v1-des.ocpappdes.financiero.bco​/cross-channel​/party-authentication​/v1.0​/customers-password​/{personId}​/validate "/>
             <property key="Seguridad"/>
             <property key="Tecnología" value="Java + Spring"/>
             <property key="Tipo de integración" value="Sincrono"/>
@@ -381,9 +381,9 @@
             <property key="Estado" value="Producción"/>
             <property key="Dueño del Servicio"/>
             <property key="Interfaz" value="API REST"/>
-            <property key="API Contract" value="https://currency-exchange-v1-cal.ocpappcal.financiero.bco/swagger-ui.html"/>
+            <property key="API Contract" value="https://currency-exchange-v1-des.ocpappdes.financiero.bco/swagger-ui.html"/>
             <property key="Función 1" value="Permite obtener el tipo de cambio."/>
-            <property key="URL Función 1" value="[GET] https://currency-exchange-v1-cal.ocpappcal.financiero.bco​/consumer-services​/currency-exchange​/v1.0​/exchange-rate"/>
+            <property key="URL Función 1" value="[GET] https://currency-exchange-v1-des.ocpappdes.financiero.bco​/consumer-services​/currency-exchange​/v1.0​/exchange-rate"/>
             <property key="Seguridad"/>
             <property key="Tecnología" value="Java + Spring"/>
             <property key="Tipo de integración" value="Sincrono"/>
@@ -578,39 +578,39 @@
             <property key="URL Función 15" value="[GET] https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/channels"/>
             <property key="URL Función 16" value="[GET] https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/channels​/{channelId}"/>
             <property key="URL Función 17" value="[GET] https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/commissions"/>
-            <property key="URL Función 18" value="[POST] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/commissions"/>
-            <property key="URL Función 19" value="[GET] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/commissions​/{commissionId}"/>
-            <property key="URL Función 20" value="[PUT] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/commissions​/{commissionId}"/>
-            <property key="URL Función 21" value="[DELETE] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/commissions​/{commissionId}"/>
-            <property key="URL Función 22" value="[GET] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/companies"/>
-            <property key="URL Función 23" value="[POST] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/companies"/>
-            <property key="URL Función 24" value="[GET] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/companies​/{companyId}"/>
-            <property key="URL Función 25" value="[PUT] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/companies​/{companyId}"/>
-            <property key="URL Función 26" value="[DELETE] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/companies​/{companyId}"/>
-            <property key="URL Función 27" value="[GET] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/companies​/{companyId}​/services-types"/>
-            <property key="URL Función 28" value="[GET] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/configurations"/>
-            <property key="URL Función 29" value="[GET] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/products"/>
-            <property key="URL Función 30" value="[POST] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/products"/>
-            <property key="URL Función 31" value="[GET] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/products​/{productId}"/>
-            <property key="URL Función 32" value="[PUT] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/products​/{productId}"/>
-            <property key="URL Función 33" value="[DELETE] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/products​/{productId}"/>
-            <property key="URL Función 34" value="[GET] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/providers"/>
-            <property key="URL Función 35" value="[POST] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/providers"/>
-            <property key="URL Función 36" value="[GET] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/providers​/{providerId}"/>
-            <property key="URL Función 37" value="[PUT] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/providers​/{providerId}"/>
-            <property key="URL Función 38" value="[DELETE] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/providers​/{providerId}"/>
-            <property key="URL Función 39" value="[GET] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/providers​/{providerId}​/products"/>
-            <property key="URL Función 40" value="[GET] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/service-product-classifications​/{serviceProductId}"/>
-            <property key="URL Función 41" value="[GET] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/service-products"/>
-            <property key="URL Función 42" value="[POST] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/service-products"/>
-            <property key="URL Función 43" value="[GET] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/service-products​/{serviceProductId}"/>
-            <property key="URL Función 44" value="[PUT] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/service-products​/{serviceProductId}"/>
-            <property key="URL Función 45" value="[DELETE] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/service-products​/{serviceProductId}"/>
-            <property key="URL Función 46" value="[GET] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/service-products​/{serviceProductId}​/commissions"/>
-            <property key="URL Función 47" value="[GET] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/services-types"/>
-            <property key="URL Función 48" value="[POST] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/services-types"/>
-            <property key="URL Función 49" value="[GET] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/services-types​/{serviceTypeId}"/>
-            <property key="URL Función 50" value="[PUT] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/services-types​/{serviceTypeId}"/>
+            <property key="URL Función 18" value="[POST] https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/commissions"/>
+            <property key="URL Función 19" value="[GET] https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/commissions​/{commissionId}"/>
+            <property key="URL Función 20" value="[PUT] https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/commissions​/{commissionId}"/>
+            <property key="URL Función 21" value="[DELETE] https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/commissions​/{commissionId}"/>
+            <property key="URL Función 22" value="[GET] https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/companies"/>
+            <property key="URL Función 23" value="[POST] https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/companies"/>
+            <property key="URL Función 24" value="[GET] https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/companies​/{companyId}"/>
+            <property key="URL Función 25" value="[PUT] https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/companies​/{companyId}"/>
+            <property key="URL Función 26" value="[DELETE] https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/companies​/{companyId}"/>
+            <property key="URL Función 27" value="[GET] https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/companies​/{companyId}​/services-types"/>
+            <property key="URL Función 28" value="[GET] https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/configurations"/>
+            <property key="URL Función 29" value="[GET] https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/products"/>
+            <property key="URL Función 30" value="[POST] https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/products"/>
+            <property key="URL Función 31" value="[GET] https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/products​/{productId}"/>
+            <property key="URL Función 32" value="[PUT] https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/products​/{productId}"/>
+            <property key="URL Función 33" value="[DELETE] https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/products​/{productId}"/>
+            <property key="URL Función 34" value="[GET] https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/providers"/>
+            <property key="URL Función 35" value="[POST] https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/providers"/>
+            <property key="URL Función 36" value="[GET] https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/providers​/{providerId}"/>
+            <property key="URL Función 37" value="[PUT] https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/providers​/{providerId}"/>
+            <property key="URL Función 38" value="[DELETE] https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/providers​/{providerId}"/>
+            <property key="URL Función 39" value="[GET] https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/providers​/{providerId}​/products"/>
+            <property key="URL Función 40" value="[GET] https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/service-product-classifications​/{serviceProductId}"/>
+            <property key="URL Función 41" value="[GET] https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/service-products"/>
+            <property key="URL Función 42" value="[POST] https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/service-products"/>
+            <property key="URL Función 43" value="[GET] https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/service-products​/{serviceProductId}"/>
+            <property key="URL Función 44" value="[PUT] https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/service-products​/{serviceProductId}"/>
+            <property key="URL Función 45" value="[DELETE] https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/service-products​/{serviceProductId}"/>
+            <property key="URL Función 46" value="[GET] https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/service-products​/{serviceProductId}​/commissions"/>
+            <property key="URL Función 47" value="[GET] https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/services-types"/>
+            <property key="URL Función 48" value="[POST] https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/services-types"/>
+            <property key="URL Función 49" value="[GET] https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/services-types​/{serviceTypeId}"/>
+            <property key="URL Función 50" value="[PUT] https://jsc-cross-service-specification-v1-des.ocpappdes.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/services-types​/{serviceTypeId}"/>
             <property key="URL Función 51" value="[DELETE] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/services-types​/{serviceTypeId}"/>
             <property key="URL Función 52" value="[POST] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/synchronizations"/>
             <property key="URL Función 53" value="[POST] https://jsc-cross-service-specification-v1-cal.ocpappcal.financiero.bco​/support-channel​/jrvs​/v1.0​/service-specification​/transactions"/>
@@ -893,7 +893,7 @@ Invoca: &#xD;
             <property key="Estado" value="Producción"/>
             <property key="Dueño del Servicio"/>
             <property key="Interfaz" value="API REST"/>
-            <property key="API Contract" value="https://jsc-mbbk-user-preference-v1-cal.ocpappcal.financiero.bco/swagger-ui.html"/>
+            <property key="API Contract" value="https://jsc-mbbk-user-preference-v1-des.ocpappdes.financiero.bco/swagger-ui.html"/>
             <property key="Función 1" value="Valida el número de intentos para verificar la huella digital."/>
             <property key="Función 2" value="Consulta los feriados dentro del rango especificado en los parámetros."/>
             <property key="Función 3" value="Permite obtener los parámetros de la aplicación."/>
@@ -905,15 +905,15 @@ Invoca: &#xD;
             <property key="Función 9" value="Consulta las configuraciones activas de los productos."/>
             <property key="Función 10" value="Permite obtener el número de transacción."/>
             <property key="URL Función 1" value="[POST] https://jsc-mbbk-user-preference-v1-cal.ocpappcal.financiero.bco​/support-channel​/mbbk​/v1.0​/user-preference​/biometric-failed-attempts"/>
-            <property key="URL Función 2" value="[GET] https://jsc-mbbk-user-preference-v1-cal.ocpappcal.financiero.bco​/support-channel​/mbbk​/v1.0​/user-preference​/holidays"/>
-            <property key="URL Función 3" value="[GET] https://jsc-mbbk-user-preference-v1-cal.ocpappcal.financiero.bco​/support-channel​/mbbk​/v1.0​/user-preference​/parameters"/>
-            <property key="URL Función 4" value="[GET] https://jsc-mbbk-user-preference-v1-cal.ocpappcal.financiero.bco​/support-channel​/mbbk​/v1.0​/user-preference​/persons​/{personId}"/>
-            <property key="URL Función 5" value="[GET] https://jsc-mbbk-user-preference-v1-cal.ocpappcal.financiero.bco​/support-channel​/mbbk​/v1.0​/user-preference​/persons​/{personId}​/exchange-rate"/>
-            <property key="URL Función 6" value="[GET] https://jsc-mbbk-user-preference-v1-cal.ocpappcal.financiero.bco​/support-channel​/mbbk​/v1.0​/user-preference​/persons​/{personId}​/settings"/>
-            <property key="URL Función 7" value="[PATCH] https://jsc-mbbk-user-preference-v1-cal.ocpappcal.financiero.bco​/support-channel​/mbbk​/v1.0​/user-preference​/persons​/{personId}​/settings"/>
-            <property key="URL Función 8" value="[GET] https://jsc-mbbk-user-preference-v1-cal.ocpappcal.financiero.bco​/support-channel​/mbbk​/v1.0​/user-preference​/persons​/{personId}​/users-info"/>
-            <property key="URL Función 9" value="[GET] https://jsc-mbbk-user-preference-v1-cal.ocpappcal.financiero.bco​/support-channel​/mbbk​/v1.0​/user-preference​/products-preference"/>
-            <property key="URL Función 10" value="[POST] https://jsc-mbbk-user-preference-v1-cal.ocpappcal.financiero.bco​/support-channel​/mbbk​/v1.0​/user-preference​/transaction-sequences"/>
+            <property key="URL Función 2" value="[GET] https://jsc-mbbk-user-preference-v1-des.ocpappdes.financiero.bco​/support-channel​/mbbk​/v1.0​/user-preference​/holidays"/>
+            <property key="URL Función 3" value="[GET] https://jsc-mbbk-user-preference-v1-des.ocpappdes.financiero.bco​/support-channel​/mbbk​/v1.0​/user-preference​/parameters"/>
+            <property key="URL Función 4" value="[GET] https://jsc-mbbk-user-preference-v1-des.ocpappdes.financiero.bco​/support-channel​/mbbk​/v1.0​/user-preference​/persons​/{personId}"/>
+            <property key="URL Función 5" value="[GET] https://jsc-mbbk-user-preference-v1-des.ocpappdes.financiero.bco​/support-channel​/mbbk​/v1.0​/user-preference​/persons​/{personId}​/exchange-rate"/>
+            <property key="URL Función 6" value="[GET] https://jsc-mbbk-user-preference-v1-des.ocpappdes.financiero.bco​/support-channel​/mbbk​/v1.0​/user-preference​/persons​/{personId}​/settings"/>
+            <property key="URL Función 7" value="[PATCH] https://jsc-mbbk-user-preference-v1-des.ocpappdes.financiero.bco​/support-channel​/mbbk​/v1.0​/user-preference​/persons​/{personId}​/settings"/>
+            <property key="URL Función 8" value="[GET] https://jsc-mbbk-user-preference-v1-des.ocpappdes.financiero.bco​/support-channel​/mbbk​/v1.0​/user-preference​/persons​/{personId}​/users-info"/>
+            <property key="URL Función 9" value="[GET] https://jsc-mbbk-user-preference-v1-des.ocpappdes.financiero.bco​/support-channel​/mbbk​/v1.0​/user-preference​/products-preference"/>
+            <property key="URL Función 10" value="[POST] https://jsc-mbbk-user-preference-v1-des.ocpappdes.financiero.bco​/support-channel​/mbbk​/v1.0​/user-preference​/transaction-sequences"/>
             <property key="Seguridad"/>
             <property key="Tecnología" value="Java + Spring"/>
             <property key="Tipo de integración" value="Sincrono"/>
@@ -1290,6 +1290,9 @@ Invoca: &#xD;
     <element xsi:type="archimate:CompositionRelationship" id="id-f779c3a62e8c4053adec18c2db9b7e3e" source="id-7ecc6b08f61f40b2917f7241b104583e" target="5175543a-ac94-4262-9e86-16b0162c57ba"/>
     <element xsi:type="archimate:CompositionRelationship" id="id-77085fa2aa794c7e83dd3462fe958102" source="id-7ecc6b08f61f40b2917f7241b104583e" target="c1b20c0a-6ab7-4626-a761-cdc126cca1fa"/>
     <element xsi:type="archimate:CompositionRelationship" id="id-d6a9d014278740ae927d4b3e1d161c62" source="id-7ecc6b08f61f40b2917f7241b104583e" target="134f58d4-49b5-4a03-9225-e2b6ac927153"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-8d2bf3e5c44b45519f6672cbacad8d9b" source="id-7ecc6b08f61f40b2917f7241b104583e" target="ff3bd4fb-8084-41a4-991c-956bcdb31c8b"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-c07b0e8cebef49508985acc537bf8241" source="id-7ecc6b08f61f40b2917f7241b104583e" target="c0280f40-9c47-481e-8853-efb6f4691000"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-38a086239d544feeb57d3db295cb7e83" source="id-7ecc6b08f61f40b2917f7241b104583e" target="id-b32e2f5b02044de9a8ae5e620f0e6f59"/>
   </folder>
   <folder name="Views" id="7803d176-e4ae-41c2-a24c-4fb7088377fb" type="diagrams">
     <folder name="Solution Architecture" id="d9fd6f5c-31db-4182-8f0a-a66c3e07aaf8">
@@ -2242,7 +2245,7 @@ commercial off-the-shelf (COTS), or government off-the-shelf (GOTS) products, or
             </child>
           </child>
           <child xsi:type="archimate:Group" id="id-5134e7813a324e98ab8bf3a8582e4d56" name="On-premise Pichincha" font="1|Segoe UI|10.0|1|WINDOWS|1|-20|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" fillColor="#d2d7d7">
-            <bounds x="48" y="516" width="1345" height="733"/>
+            <bounds x="-372" y="492" width="1345" height="733"/>
             <child xsi:type="archimate:DiagramObject" id="id-1a08c9268ff043689b795c5a29d0ae81" font="1|Segoe UI|9.0|1|WINDOWS|1|-12|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" fillColor="#d2d7d7" archimateElement="ae312613-765b-489a-a8fb-e903869338a3">
               <bounds x="36" y="48" width="168" height="480"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-35af6ca8bd594b9c9f6d2b3099ce2899" source="id-1a08c9268ff043689b795c5a29d0ae81" target="e4305a1f-f88a-491c-ba80-c3fc0c71ad21" archimateRelationship="b4974f93-3830-4a18-a178-860cc034027f"/>
@@ -2259,6 +2262,10 @@ commercial off-the-shelf (COTS), or government off-the-shelf (GOTS) products, or
                 <sourceConnection xsi:type="archimate:Connection" id="3f98510a-6fab-44b9-bfa6-8272332fe4fc" source="06657d5a-6fcd-4f86-95fa-259c11b6abbd" target="40c5bccc-f186-4089-83a1-7c2e4fab67c9" archimateRelationship="0517a841-5943-468f-8372-0c93922cbcab"/>
                 <sourceConnection xsi:type="archimate:Connection" id="1fee289d-35bd-4e65-87e6-86ab8b43ebf1" source="06657d5a-6fcd-4f86-95fa-259c11b6abbd" target="00626d71-2574-4941-a120-b06ee13e3966" archimateRelationship="6eb3716a-1d33-4c9e-b4dc-4d3eb4e60256"/>
                 <sourceConnection xsi:type="archimate:Connection" id="id-7dd6fcd258af4ecaa1c197347ee484df" source="06657d5a-6fcd-4f86-95fa-259c11b6abbd" target="id-e8db054f870741bf8c24410ab87baf68" archimateRelationship="id-ad088123da5946d692b50b7421401953"/>
+                <sourceConnection xsi:type="archimate:Connection" id="id-89a5cc19c5e1487894abe2ba6626001a" source="06657d5a-6fcd-4f86-95fa-259c11b6abbd" target="id-5c9eb18cba454255a07480ebc3dedac1" archimateRelationship="21d587c5-248a-4eca-8a00-d5313576da9f"/>
+                <sourceConnection xsi:type="archimate:Connection" id="id-032aebd752654038b56b00a244d11312" source="06657d5a-6fcd-4f86-95fa-259c11b6abbd" target="id-c3c2511b789f49dfb20eb950c6ba28cd" archimateRelationship="fc8f3b6a-36b6-47a3-b47b-4880646cb503"/>
+                <sourceConnection xsi:type="archimate:Connection" id="id-6a96ef33a1e34dfe9d49a96f80dd9f6b" source="06657d5a-6fcd-4f86-95fa-259c11b6abbd" target="id-a8fd0fa898bd481ba2881dc794469255" archimateRelationship="7569b8bf-0317-40c8-8883-a79a95610ef3"/>
+                <sourceConnection xsi:type="archimate:Connection" id="id-1827c3edd69245c5846f19f347d2f501" source="06657d5a-6fcd-4f86-95fa-259c11b6abbd" target="id-0ae14b608ccb43eebb8052bd3203294b" archimateRelationship="id-ee397132e10c466f80cecd42f3c1d5e6"/>
               </child>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-338de7453a4c48c3910be8baae6a3054" font="1|Segoe UI|9.0|1|WINDOWS|1|-12|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" fillColor="#d2d7d7" archimateElement="id-47f0759a5fc343cd8a824ec53975088e">
@@ -2280,7 +2287,7 @@ commercial off-the-shelf (COTS), or government off-the-shelf (GOTS) products, or
                 <bounds x="72" y="72" width="96" height="48"/>
               </child>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="id-5f966c6cc9704c4b82902da0f9bd1435" targetConnections="id-b168e0ada23e486cb5a2b9cf8a5b96fc" archimateElement="0d309f9e-dc12-4bc9-8be3-8a815b53d123">
+            <child xsi:type="archimate:DiagramObject" id="id-5f966c6cc9704c4b82902da0f9bd1435" targetConnections="id-b168e0ada23e486cb5a2b9cf8a5b96fc id-53c32ae4eb42450c84f7616b4ff8b80a id-8bea7faf28ab46589e499f4dd309c634 id-481f6275366d4050a9c6a9be184c3a6b id-ce47f6dd1d334ceb94aa7bfe9894507b" archimateElement="0d309f9e-dc12-4bc9-8be3-8a815b53d123">
               <bounds x="852" y="72" width="120" height="384"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-94046629a571483ea0e0d600ceb6bbb6" source="id-5f966c6cc9704c4b82902da0f9bd1435" target="id-dda61cc2d1f64cedafeee4324f133eb0" archimateRelationship="1aa0ca81-f524-48a6-8fda-78485f5a6274"/>
             </child>
@@ -2292,7 +2299,7 @@ commercial off-the-shelf (COTS), or government off-the-shelf (GOTS) products, or
               <bounds x="1140" y="72" width="120" height="384"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-fd3b01f99e0f4cf5a34b9ada140a9c74" font="1|Segoe UI|9.0|1|WINDOWS|1|-12|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" fillColor="#d2d7d7" archimateElement="b80eccea-f360-448e-8d83-8b1c5f554688">
-              <bounds x="528" y="276" width="216" height="106"/>
+              <bounds x="528" y="300" width="216" height="106"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-7ab3377293344a698d2fc80a594f3a19" source="id-fd3b01f99e0f4cf5a34b9ada140a9c74" target="00626d71-2574-4941-a120-b06ee13e3966" archimateRelationship="1cdd4617-96c0-455f-9de3-a2546b522dfd"/>
               <child xsi:type="archimate:DiagramObject" id="00626d71-2574-4941-a120-b06ee13e3966" targetConnections="1fee289d-35bd-4e65-87e6-86ab8b43ebf1 id-7ab3377293344a698d2fc80a594f3a19" archimateElement="36670964-42c3-4aba-b3bb-5a859ec19753">
                 <bounds x="12" y="48" width="168" height="24"/>
@@ -2316,6 +2323,29 @@ commercial off-the-shelf (COTS), or government off-the-shelf (GOTS) products, or
               </child>
               <child xsi:type="archimate:DiagramObject" id="id-f9122542a5294228b7f258d426bce66c" targetConnections="id-03c4fd3efaf54106a907d50930edeff0" archimateElement="a320f155-9ecf-487e-850e-20ef7500bdf6">
                 <bounds x="12" y="30" width="180" height="43"/>
+              </child>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="id-d9a48209372e437ba0230a1d3de5cbde" textAlignment="1" archimateElement="id-7ecc6b08f61f40b2917f7241b104583e">
+              <bounds x="516" y="48" width="276" height="204"/>
+              <sourceConnection xsi:type="archimate:Connection" id="id-f840a1f130ff42a0b4638b85c6e8ebae" source="id-d9a48209372e437ba0230a1d3de5cbde" target="id-5c9eb18cba454255a07480ebc3dedac1" archimateRelationship="id-8d2bf3e5c44b45519f6672cbacad8d9b"/>
+              <sourceConnection xsi:type="archimate:Connection" id="id-e8925532dbca4176859955184cd586da" source="id-d9a48209372e437ba0230a1d3de5cbde" target="id-c3c2511b789f49dfb20eb950c6ba28cd" archimateRelationship="id-77085fa2aa794c7e83dd3462fe958102"/>
+              <sourceConnection xsi:type="archimate:Connection" id="id-9d43d6418573427796b7bbf4939384cf" source="id-d9a48209372e437ba0230a1d3de5cbde" target="id-a8fd0fa898bd481ba2881dc794469255" archimateRelationship="id-c07b0e8cebef49508985acc537bf8241"/>
+              <sourceConnection xsi:type="archimate:Connection" id="id-0068d235f9924b13bc5b18a4afa791b7" source="id-d9a48209372e437ba0230a1d3de5cbde" target="id-0ae14b608ccb43eebb8052bd3203294b" archimateRelationship="id-38a086239d544feeb57d3db295cb7e83"/>
+              <child xsi:type="archimate:DiagramObject" id="id-5c9eb18cba454255a07480ebc3dedac1" targetConnections="id-89a5cc19c5e1487894abe2ba6626001a id-f840a1f130ff42a0b4638b85c6e8ebae" archimateElement="ff3bd4fb-8084-41a4-991c-956bcdb31c8b">
+                <bounds x="24" y="45" width="196" height="28"/>
+                <sourceConnection xsi:type="archimate:Connection" id="id-53c32ae4eb42450c84f7616b4ff8b80a" source="id-5c9eb18cba454255a07480ebc3dedac1" target="id-5f966c6cc9704c4b82902da0f9bd1435" archimateRelationship="7a87ea02-8ec5-4ef6-9b0a-c96cb9845ac7"/>
+              </child>
+              <child xsi:type="archimate:DiagramObject" id="id-c3c2511b789f49dfb20eb950c6ba28cd" targetConnections="id-e8925532dbca4176859955184cd586da id-032aebd752654038b56b00a244d11312" archimateElement="c1b20c0a-6ab7-4626-a761-cdc126cca1fa">
+                <bounds x="24" y="84" width="204" height="24"/>
+                <sourceConnection xsi:type="archimate:Connection" id="id-8bea7faf28ab46589e499f4dd309c634" source="id-c3c2511b789f49dfb20eb950c6ba28cd" target="id-5f966c6cc9704c4b82902da0f9bd1435" archimateRelationship="77654c35-6a0b-4627-9da4-3a61ba804daf"/>
+              </child>
+              <child xsi:type="archimate:DiagramObject" id="id-a8fd0fa898bd481ba2881dc794469255" targetConnections="id-6a96ef33a1e34dfe9d49a96f80dd9f6b id-9d43d6418573427796b7bbf4939384cf" archimateElement="c0280f40-9c47-481e-8853-efb6f4691000">
+                <bounds x="24" y="120" width="204" height="31"/>
+                <sourceConnection xsi:type="archimate:Connection" id="id-481f6275366d4050a9c6a9be184c3a6b" source="id-a8fd0fa898bd481ba2881dc794469255" target="id-5f966c6cc9704c4b82902da0f9bd1435" archimateRelationship="05cfb7fa-1d38-47b7-88fe-ec22a464335e"/>
+              </child>
+              <child xsi:type="archimate:DiagramObject" id="id-0ae14b608ccb43eebb8052bd3203294b" targetConnections="id-1827c3edd69245c5846f19f347d2f501 id-0068d235f9924b13bc5b18a4afa791b7" archimateElement="id-b32e2f5b02044de9a8ae5e620f0e6f59">
+                <bounds x="28" y="168" width="196" height="24"/>
+                <sourceConnection xsi:type="archimate:Connection" id="id-ce47f6dd1d334ceb94aa7bfe9894507b" source="id-0ae14b608ccb43eebb8052bd3203294b" target="id-5f966c6cc9704c4b82902da0f9bd1435" archimateRelationship="id-09fc322d6896457ab57d8e29ae5a06eb"/>
               </child>
             </child>
           </child>
